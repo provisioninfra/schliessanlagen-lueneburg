@@ -1,7 +1,7 @@
 {
  "elements": [
   {
-   "id": "c3698e5",
+   "id": "e38273d",
    "elType": "container",
    "settings": {
     "flex_direction": "column",
@@ -105,7 +105,7 @@
    },
    "elements": [
     {
-     "id": "36d2a5e",
+     "id": "9e9ea6e",
      "elType": "widget",
      "settings": {
       "title": "Wofür suchst du eine Lösung?",
@@ -166,7 +166,7 @@
      "widgetType": "heading"
     },
     {
-     "id": "0c91746",
+     "id": "71aea76",
      "elType": "widget",
      "settings": {
       "editor": "<p>Wähle aus, worum es bei dir geht: Schließsystem, Kamerasystem oder beides. Danach stellen wir dir ein paar kurze Fragen, damit sich unser Team optimal auf dein Erstgespräch vorbereiten kann.</p>",
@@ -186,7 +186,7 @@
      "widgetType": "text-editor"
     },
     {
-     "id": "42a774b",
+     "id": "f2adb38",
      "elType": "widget",
      "settings": {
       "contact_form_list": "5",
