@@ -61,6 +61,7 @@ def replace_text(root, mapping):
         e['settings'] = rep(e['settings'])
 
 used_ids = set()
+random.seed('lueneburg-2026')  # reproduzierbare Element-IDs
 def new_id():
     while True:
         i = '%07x' % random.randrange(16**7)
