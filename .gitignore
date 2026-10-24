@@ -1,0 +1,5 @@
+# Zugangsdaten/Sessions niemals einchecken
+*.env
+.env
+state.json
+wpstate.json
