@@ -997,7 +997,7 @@
           },
           "_flex_align_self": "flex-start",
           "link": {
-           "url": "/funnel-unterseite/",
+           "url": "/anfrage-auswahl/",
            "is_external": "",
            "nofollow": "",
            "custom_attributes": ""
@@ -8142,7 +8142,7 @@
             "button_text_color": "#2B2B2B",
             "background_color": "#FBC91B",
             "link": {
-             "url": "/funnel-unterseite/",
+             "url": "/anfrage-auswahl/",
              "is_external": "",
              "nofollow": "",
              "custom_attributes": ""
@@ -13532,7 +13532,7 @@
             "button_text_color": "#2B2B2B",
             "background_color": "#FBC91B",
             "link": {
-             "url": "/funnel-unterseite/",
+             "url": "/anfrage-auswahl/",
              "is_external": "",
              "nofollow": "",
              "custom_attributes": ""
@@ -13750,56 +13750,56 @@
       "eael_adv_accordion_tab": [
        {
         "eael_adv_accordion_tab_title": "Was kostet eine Schließanlage in Lüneburg?",
-        "_id": "942547b",
+        "_id": "f1a5d3e",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Das hängt von der Zahl der Türen, der Art der Zylinder und davon ab, ob die Anlage mechanisch, elektronisch oder kombiniert sein soll. Eine mechanische Anlage für ein kleines Büro liegt deutlich unter einer digitalen Lösung mit App-Steuerung. Einen ersten Rahmen bekommst du im Erstgespräch, einen verbindlichen Preis nach dem Termin vor Ort.</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Mechanische oder elektronische Schließanlage – was passt zu meinem Betrieb?",
-        "_id": "7a0bc74",
+        "_id": "58762b2",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Wenige Türen und wenig Wechsel beim Personal: Dann reicht oft eine mechanische Anlage mit Sicherungskarte. Viele Mitarbeitende, Dienstleister oder mehrere Standorte: Dann lohnt sich eine elektronische Anlage, weil du Berechtigungen in Sekunden änderst. Häufig ist eine Mischung sinnvoll – wir beraten dich herstellerneutral.</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Kann ich meine bestehende Schließanlage auf elektronisch umrüsten?",
-        "_id": "2badd00",
+        "_id": "cfa4bb1",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Ja. Digitale Zylinder von SimonsVoss oder smarte Schlösser wie NUKI lassen sich in vorhandene Türen einsetzen, meist ohne Verkabelung. Wir rüsten schrittweise um, der Betrieb läuft weiter.</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Wie schnell seid ihr in Lüneburg vor Ort?",
-        "_id": "0092108",
+        "_id": "985957a",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Von Bad Bevensen sind wir in rund einer halben Stunde in Lüneburg. Termine für Begehung und Montage stimmen wir so ab, dass dein Betrieb nicht stillsteht – auch in Adendorf, Bardowick, Reppenstedt oder Winsen (Luhe).</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Darf ich mein Firmengelände in Lüneburg per Kamera überwachen?",
-        "_id": "4e8e90b",
+        "_id": "9072cc8",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Ja, innerhalb klarer Regeln. Erlaubt ist dein eigenes Gelände samt Zugängen, nicht der Gehweg oder das Nachbargrundstück. Mitarbeitende müssen informiert sein, ein Hinweisschild ist Pflicht. Wir planen die Kamerawinkel entsprechend und geben dir Schilder und Unterlagen mit.</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Kann ich Zutritt und Kameras in einem System verbinden?",
-        "_id": "fb82a45",
+        "_id": "6a3b6ea",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Ja. Öffnet jemand eine Tür per Transponder oder App, siehst du im Protokoll, wer es war, und auf der Aufnahme, was passiert ist. Wir planen beides zusammen, damit Kamerastandorte und Zugänge zueinander passen.</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Welche Hersteller verbaut ProVision Infra?",
-        "_id": "415a7be",
+        "_id": "4967d0c",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Bei Schließanlagen arbeiten wir unter anderem mit EVVA, SimonsVoss, Keyota, Keyrent und NUKI, bei Kamerasystemen mit TP-Link VIGI. Welche Komponenten zu dir passen, entscheiden wir nach der Begehung – nicht nach Katalog.</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Was passiert nach der Installation?",
-        "_id": "a23e1e9",
+        "_id": "34ff3b7",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
         "eael_adv_accordion_tab_content": "<p>Wir übergeben die Anlage erst, wenn alles so funktioniert wie vereinbart, und halten das schriftlich fest. Danach bleiben wir Ansprechpartner für Erweiterungen, Nachschlüssel, neue Transponder und Wartung.</p>"
@@ -35830,7 +35830,7 @@
   "custom_css": "html, body {\n  max-width: 100%;\n  overflow-x: clip;\n}\n\n\n\n\n\n.shadeup {\n  position: relative;\n}\n\n.shadeup::before {\n  content: \"\";\n  position: absolute;\n  top: -10px; /* Centers the 20px height over the top boundary line */\n  left: 0;\n  width: 100%;\n  height: 30px;\n  background: linear-gradient(\n    to bottom,\n    transparent 0%,\n    #010c2d 0%,\n    transparent 100%\n  );\n  pointer-events: none; /* Prevents interference with clicks */\n  z-index: 10; /* Keeps the gradient above adjacent containers */\n}\n\n",
   "template": "default",
   "post_title": "Schließanlagen & Videoüberwachung Lüneburg",
-  "post_status": "draft",
+  "post_status": "publish",
   "post_excerpt": "",
   "post_featured_image": {
    "url": "https://provision-infra.de/wp-content/uploads/2026/05/provision_header_02-1.png",

@@ -16,7 +16,7 @@ K = json.load(open(f'{DUMP}/elementor_4313.json', encoding='utf-8'))   # Kameras
 H = json.load(open(f'{DUMP}/elementor_31.json', encoding='utf-8'))     # Startseite
 C = json.load(open(f'{DUMP}/elementor_4371.json', encoding='utf-8'))   # Kontakt Kamerasysteme
 
-FUNNEL_URL = '/funnel-unterseite/'
+FUNNEL_URL = '/anfrage-auswahl/'
 SITE = 'https://provision-infra.de'
 
 def _find(els, eid):
@@ -331,7 +331,7 @@ for root in els:
             raise SystemExit(f"Alter CTA-Link in {e['id']}")
 
 page_settings = copy.deepcopy(H['settings'])
-page_settings.update({'post_title': 'Schließanlagen & Videoüberwachung Lüneburg', 'post_status': 'draft',
+page_settings.update({'post_title': 'Schließanlagen & Videoüberwachung Lüneburg', 'post_status': 'publish',
                       'custom_css': H['settings']['custom_css']})
 
 json.dump({'elements': els, 'settings': page_settings,
@@ -348,15 +348,15 @@ def contact_page(title, heading, text, form_id, slug, seo_title):
     ws[0]['settings']['title'] = heading
     ws[1]['settings']['editor'] = text
     ws[2]['settings']['contact_form_list'] = str(form_id)
-    settings = copy.deepcopy(C['settings']); settings.update({'post_title': title, 'post_status': 'draft'})
+    settings = copy.deepcopy(C['settings']); settings.update({'post_title': title, 'post_status': 'publish'})
     return {'elements': [root], 'settings': settings,
             'seo': {'title': seo_title, 'description': '', 'focuskw': '', 'slug': slug, 'robots_noindex': '1'}}
 
 json.dump(contact_page('Funnel-Unterseite',
     'Wofür suchst du eine Lösung?',
     '<p>Wähle aus, worum es bei dir geht: Schließsystem, Kamerasystem oder beides. Danach stellen wir dir ein paar kurze Fragen, damit sich unser Team optimal auf dein Erstgespräch vorbereiten kann.</p>',
-    FUNNEL_FORM_ID, 'funnel-unterseite', 'Anfrage – ProVision Infra'),
-    open(f'{OUT}/funnel-unterseite.elementor.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    FUNNEL_FORM_ID, 'anfrage-auswahl', 'Anfrage – ProVision Infra'),
+    open(f'{OUT}/anfrage-auswahl.elementor.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 json.dump(contact_page('Kontakt Schließ- & Kamerasysteme',
     'Bitte fülle den Fragebogen aus, damit sich unser Team bestmöglich auf deinen Termin vorbereiten kann. Im nächsten Schritt kannst du ein Datum und eine Uhrzeit für dein Gespräch auswählen.',

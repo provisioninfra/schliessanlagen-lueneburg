@@ -1,7 +1,7 @@
 {
  "elements": [
   {
-   "id": "6bf3437",
+   "id": "8754a23",
    "elType": "container",
    "settings": {
     "flex_direction": "column",
@@ -105,7 +105,7 @@
    },
    "elements": [
     {
-     "id": "f0c7dfe",
+     "id": "830778d",
      "elType": "widget",
      "settings": {
       "title": "Bitte fülle den Fragebogen aus, damit sich unser Team bestmöglich auf deinen Termin vorbereiten kann. Im nächsten Schritt kannst du ein Datum und eine Uhrzeit für dein Gespräch auswählen.",
@@ -166,7 +166,7 @@
      "widgetType": "heading"
     },
     {
-     "id": "11a3904",
+     "id": "f77cc3d",
      "elType": "widget",
      "settings": {
       "editor": "<p>Im Gespräch klären wir, welche Türen und Zugänge du regeln willst, welche Bereiche du im Blick haben willst und wie beides zusammenspielt. Dazu bekommst du eine erste Einschätzung zu Aufwand und Kosten.</p>",
@@ -186,7 +186,7 @@
      "widgetType": "text-editor"
     },
     {
-     "id": "b692a9e",
+     "id": "0e7e11c",
      "elType": "widget",
      "settings": {
       "contact_form_list": "6",
@@ -266,7 +266,7 @@
  "settings": {
   "template": "default",
   "post_title": "Kontakt Schließ- & Kamerasysteme",
-  "post_status": "draft",
+  "post_status": "publish",
   "post_excerpt": "",
   "post_featured_image": {
    "url": "",

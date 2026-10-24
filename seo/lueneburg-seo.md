@@ -2,12 +2,12 @@
 
 Stand: 24.10.2026 · Seite: https://provision-infra.de/lueneburg/ (WordPress-Seite #4496, Elementor)
 
-Angelegte Objekte in WordPress (alle Seiten als **Entwurf**, noch nicht veröffentlicht):
+Angelegte Objekte in WordPress (alle drei Seiten **veröffentlicht** am 24.10.2026):
 
 | Objekt | ID | Hinweis |
 | --- | --- | --- |
 | Seite „Schließanlagen & Videoüberwachung Lüneburg“ | 4496 | `/lueneburg/`, index |
-| Seite „Funnel-Unterseite“ | 4497 | `/funnel-unterseite/`, noindex, enthält Formular 5 |
+| Seite „Funnel-Unterseite“ | 4497 | `/anfrage-auswahl/` (Slug auf Wunsch geändert), noindex, enthält Formular 5 |
 | Seite „Kontakt Schließ- & Kamerasysteme“ | 4498 | `/kontakt-kombiniert/`, noindex, enthält Formular 6 |
 | Gravity Form „Funnel Auswahl (Lüneburg / alle Unterseiten)“ | 5 | Weiterleitungen: Schließsystem → Seite 42, Kamerasysteme → Seite 4371, Beides → Seite 4498 |
 | Gravity Form „Anfrageformular Schließ- & Kamerasysteme“ | 6 | Standard → Seite 3617 (Termin), LQ-Regel → Seite 823, Admin-Benachrichtigung an anfragen@provision-infra.de |
@@ -38,7 +38,7 @@ Suchintention: gewerbliche Entscheider (Betriebe, Praxen, Handwerk, Lager) in L�
 | Robots | index, follow (Yoast-Standard, max-image-preview:large) |
 | OG/Twitter | Titel + Description wie oben, Bild `provision_header_02-1.png` (1305×980) |
 
-Funnel-Seiten (`/funnel-unterseite/`, `/kontakt-kombiniert/`) sind wie die bestehenden Kontaktseiten auf **noindex** gesetzt und erscheinen nicht in der Sitemap.
+Funnel-Seiten (`/anfrage-auswahl/`, `/kontakt-kombiniert/`) sind wie die bestehenden Kontaktseiten auf **noindex** gesetzt und erscheinen nicht in der Sitemap.
 
 ## 3. Seitenstruktur (gekürzt gegenüber der Kamera-Seite: 13 statt 22 Abschnitte)
 
@@ -83,7 +83,7 @@ Yoast ergänzt automatisch `WebSite`, `WebPage` und `BreadcrumbList`; doppelte B
 ## 6. Funnel
 
 ```
-/lueneburg/  ──CTA──▶  /funnel-unterseite/  (Formular „Funnel Auswahl“: Schließsystem | Kamerasysteme | Beides)
+/lueneburg/  ──CTA──▶  /anfrage-auswahl/  (Formular „Funnel Auswahl“: Schließsystem | Kamerasysteme | Beides)
                              │ Schließsystem  ──▶ /kontakt/            (Formular 2, bestehend) ──▶ /termin/
                              │ Kamerasysteme  ──▶ /kontakt-kamerasysteme/ (Formular 4, bestehend) ──▶ /termin-kamerasysteme/
                              └ Beides         ──▶ /kontakt-kombiniert/ (neues Formular „Anfrageformular Schließ- & Kamerasysteme“)
@@ -95,7 +95,7 @@ UTM-Parameter (utm_source … fbclid) werden im Funnel-Formular als versteckte F
 
 ## 7. Indexierung – Checkliste nach Veröffentlichung
 
-- [ ] Seite in WordPress veröffentlichen (Status „Entwurf“ → „Veröffentlicht“), Funnel- und Kombi-Seite ebenfalls
+- [x] Seite in WordPress veröffentlichen (Status „Entwurf“ → „Veröffentlicht“), Funnel- und Kombi-Seite ebenfalls
 - [ ] `https://provision-infra.de/page-sitemap.xml` enthält `/lueneburg/` (Yoast automatisch, Cache von WP Rocket ggf. leeren)
 - [ ] `https://provision-infra.de/lueneburg/` liefert 200, Canonical auf sich selbst, `robots` = index,follow
 - [ ] Google Search Console → URL-Prüfung → „Indexierung beantragen“

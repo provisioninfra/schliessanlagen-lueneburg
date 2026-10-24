@@ -9,7 +9,7 @@ Die Seite ist direkt in WordPress/Elementor angelegt (Seite #4496). Dieses Repos
 | Pfad | Zweck |
 | --- | --- |
 | `elementor/lueneburg.elementor.json` | Elementor-Elemente + Seiteneinstellungen + Yoast-Werte der Lüneburg-Seite |
-| `elementor/funnel-unterseite.elementor.json` | Funnel-Auswahlseite (`/funnel-unterseite/`) |
+| `elementor/anfrage-auswahl.elementor.json` | Funnel-Auswahlseite (`/anfrage-auswahl/`, Seitentitel „Funnel-Unterseite“) |
 | `elementor/kontakt-kombiniert.elementor.json` | Kontaktseite mit kombiniertem Formular (`/kontakt-kombiniert/`) |
 | `gravity-forms/funnel-auswahl.form.json` | Formular „Funnel Auswahl“ (Schließsystem / Kamerasysteme / Beides, bedingte Weiterleitungen) |
 | `gravity-forms/anfrage-kombiniert.form.json` | Formular „Anfrageformular Schließ- & Kamerasysteme“ |
