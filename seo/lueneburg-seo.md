@@ -2,6 +2,19 @@
 
 Stand: 24.10.2026 · Seite: https://provision-infra.de/lueneburg/ (WordPress-Seite #4496, Elementor)
 
+Angelegte Objekte in WordPress (alle Seiten als **Entwurf**, noch nicht veröffentlicht):
+
+| Objekt | ID | Hinweis |
+| --- | --- | --- |
+| Seite „Schließanlagen & Videoüberwachung Lüneburg“ | 4496 | `/lueneburg/`, index |
+| Seite „Funnel-Unterseite“ | 4497 | `/funnel-unterseite/`, noindex, enthält Formular 5 |
+| Seite „Kontakt Schließ- & Kamerasysteme“ | 4498 | `/kontakt-kombiniert/`, noindex, enthält Formular 6 |
+| Gravity Form „Funnel Auswahl (Lüneburg / alle Unterseiten)“ | 5 | Weiterleitungen: Schließsystem → Seite 42, Kamerasysteme → Seite 4371, Beides → Seite 4498 |
+| Gravity Form „Anfrageformular Schließ- & Kamerasysteme“ | 6 | Standard → Seite 3617 (Termin), LQ-Regel → Seite 823, Admin-Benachrichtigung an anfragen@provision-infra.de |
+| Menü „Lüneburg“ | 18 | fünf Anker-Links, im Header der Lüneburg-Seite eingebunden |
+
+Zusätzlich wurde in Gravity Forms → Einstellungen → REST API der Zugriff aktiviert (nötig zum Anlegen der Formulare; kann wieder deaktiviert werden).
+
 ## 1. Ziel und Keyword-Set
 
 Lokale Landingpage für Lüneburg und den Landkreis Lüneburg mit zwei Leistungsfeldern:
