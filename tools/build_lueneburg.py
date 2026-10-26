@@ -299,6 +299,7 @@ for sid in ('aed8a2d', 'a3564b7', '7dfd9f6'):
     if sid == 'aed8a2d':
         set_setting(sec, 'aed8a2d', '_element_id', 'leistungen')
         set_setting(sec, 'aed8a2d', '_title', 'Leistungen Lüneburg')
+        set_setting(sec, '8e89b3c', 'title', '<b>Unsere Leistungen</b> in Lüneburg im Überblick')
     els.append(sec)
 
 # 5c Zielgruppen (Klon der Glass-Cards mit neuen IDs)
