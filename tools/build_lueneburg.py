@@ -165,13 +165,17 @@ FAQ = [
      '<p>Bei Schließanlagen arbeiten wir unter anderem mit EVVA, SimonsVoss, Keyota, Keyrent und NUKI, bei Kamerasystemen mit TP-Link VIGI. Welche Komponenten zu dir passen, entscheiden wir nach der Begehung – nicht nach Katalog. Mehr Hintergrund findest du auf den Seiten <a href="/zutrittssystem/">Zutrittssystem</a> und <a href="/kamerasysteme/">Kamerasysteme</a>.</p>'),
     ('Was passiert nach der Installation?',
      '<p>Wir übergeben die Anlage erst, wenn alles so funktioniert wie vereinbart, und halten das schriftlich fest. Danach bleiben wir Ansprechpartner für Erweiterungen, Nachschlüssel, neue Transponder und Wartung.</p>'),
+    ('Wie lange dauert der Einbau einer Schließanlage in Lüneburg?',
+     '<p>Eine mechanische Anlage für ein kleines Objekt ist meist an einem Tag eingebaut, digitale Zylinder sind in wenigen Minuten pro Tür gesetzt. Größere Objekte planen wir in Abschnitten, damit dein Betrieb weiterläuft. Den Zeitplan bekommst du zusammen mit dem Angebot.</p>'),
+    ('Übernehmt ihr auch Wartung und Service für Schließanlagen und Kameras im Raum Lüneburg?',
+     '<p>Ja. Nach der Übergabe bleiben wir dein Ansprechpartner: Erweiterungen, Nachschlüssel und neue Transponder, Software-Updates für Zutrittssystem und Rekorder sowie die Wartung der Kameras. Von Bad Bevensen aus sind wir auch für Servicetermine schnell in Lüneburg.</p>'),
 ]
 
 def strip_tags(s): return re.sub(r'\s+', ' ', re.sub('<[^>]+>', '', s)).replace('&amp;', '&').strip()
 
 SEO_TITLE = 'Schließanlagen & Videoüberwachung Lüneburg | ProVision Infra'
-SEO_DESC = ('Mechanische & elektronische Schließanlagen und Videoüberwachung in Lüneburg: ProVision Infra plant, '
-            'installiert und betreut dein System vor Ort.')
+SEO_DESC = ('Schließanlagen (mechanisch & elektronisch) und Videoüberwachung in Lüneburg: ProVision Infra plant, '
+            'installiert und betreut dein System vor Ort. Jetzt Erstgespräch sichern.')
 assert len(SEO_TITLE) <= 60, len(SEO_TITLE)
 assert len(SEO_DESC) <= 160, len(SEO_DESC)
 
@@ -269,6 +273,53 @@ replace_text(glass, GLASS)
 set_setting(glass, 'd70fb3d', '_element_id', 'kamera')
 set_setting(glass, 'd70fb3d', '_title', 'Videoüberwachung Lüneburg')
 els.append(glass)
+
+# 5b Leistungsuebersicht (zwei Spalten mit Icons, Lottie-Kamera; Desktop + Mobil-Variante der Kamera-Seite)
+LEISTUNGEN = {
+    'Stell dir mal vor …': 'Unsere Leistungen in Lüneburg im Überblick',
+    'Du siehst nachts auf dem Handy, wer gerade auf deinem Hof steht.':
+        'Planung und Montage mechanischer Schließanlagen mit Schließplan und Sicherungskarte.',
+    'Dein Handy meldet sich, sobald sich jemand am Zaun oder am Lager bewegt.':
+        'Elektronische Zutrittskontrolle mit Transponder, KeyCard oder App – auch als Nachrüstung.',
+    'Nach einem Einbruch hat die Polizei innerhalb von Minuten scharfe Aufnahmen.':
+        'Umrüstung bestehender Anlagen: Zylindertausch, neuer Schließplan, Nachschlüssel-Management.',
+    'Die Versicherung bekommt den Nachweis, den sie braucht, und zahlt.':
+        'Smarte Türschlösser für Büro, Praxis und Ferienwohnung, zum Beispiel NUKI.',
+    'Inventurdifferenzen haben plötzlich ein Datum und ein Gesicht.':
+        'Videoüberwachung für Hof, Tor, Lager und Eingang mit Live-Bild per App.',
+    'Wer sprühen oder zerkratzen will, sieht die Kamera und zieht weiter.':
+        'Kamera-Installation inklusive Rekorder, Verkabelung, Hinweisschildern und Einweisung.',
+    'Tore und Einfahrten sind rund um die Uhr im Blick, auch wenn du im Urlaub bist.':
+        'Zutritt und Kamera als ein System: Türprotokoll und Aufnahme auf einen Blick.',
+    'Falsche Anschuldigungen klärst du mit einem Klick auf die Aufzeichnung.':
+        'Wartung, Service und Erweiterung – ein fester Ansprechpartner für Lüneburg.',
+}
+for sid in ('aed8a2d', 'a3564b7', '7dfd9f6'):
+    sec = grab(K, sid)
+    replace_text(sec, LEISTUNGEN)
+    if sid == 'aed8a2d':
+        set_setting(sec, 'aed8a2d', '_element_id', 'leistungen')
+        set_setting(sec, 'aed8a2d', '_title', 'Leistungen Lüneburg')
+    els.append(sec)
+
+# 5c Zielgruppen (Klon der Glass-Cards mit neuen IDs)
+def clone_new_ids(el):
+    el = copy.deepcopy(el)
+    for e in walk(el): e['id'] = new_id()
+    return el
+ziel = clone_new_ids(grab(K, 'd70fb3d'))
+replace_text(ziel, {
+    'So arbeiten wir': 'Für wen wir in Lüneburg arbeiten',
+    'Jede Kamera planen wir nach einer Begehung vor Ort. Im Ernstfall zeigt sie den Täter, nicht den Parkplatz.':
+        'Handwerk, Gewerbe und Produktion: Werkstatt, Lager und Büro mit einer Schließanlage – Hof und Tor per Kamera im Blick.',
+    'Aufzeichnung und App sind eingerichtet, bevor wir vom Hof fahren. Dein Handy schlägt ab dem ersten Tag Alarm.':
+        'Praxen, Kanzleien und Büros: sensible Räume nur für Berechtigte, Reinigung mit Zeitfenster, jeder Zutritt dokumentiert.',
+    '<p>Übergeben wird erst, wenn du nachts Gesichter erkennst. Das Ergebnis bekommst du schriftlich.</p>':
+        '<p>Hausverwaltungen und Einzelhandel in Lüneburg: Schließplan für viele Nutzer, Nachschlüssel ohne Zylindertausch, Kassen- und Lagerbereiche überwacht.</p>',
+})
+ziel['settings']['_element_id'] = 'zielgruppen'
+ziel['settings']['_title'] = 'Zielgruppen Lüneburg'
+els.append(ziel)
 
 # 6 Technik-Karussell (TP-Link VIGI)
 tech = grab(K, 'f9348eb')
