@@ -105,7 +105,7 @@ UTM-Parameter (utm_source … fbclid) werden im Funnel-Formular als versteckte F
 - [x] `https://provision-infra.de/page-sitemap.xml` enthält `/lueneburg/` (geprüft 24.10.2026)
 - [x] `https://provision-infra.de/lueneburg/` liefert 200, Canonical auf sich selbst, `robots` = index,follow (geprüft 24.10.2026)
 - [ ] Google Search Console → URL-Prüfung → „Indexierung beantragen“ (nur mit Google-Login möglich; nach dem Schema-Fix vom 26.10.2026 zuerst „Live-URL testen“, dann beantragen)
-- [x] IndexNow (Bing, Yandex, Seznam, Naver): Schlüsseldatei in der Mediathek, URL am 26.10.2026 gemeldet; Google nimmt an IndexNow nicht teil
+- [ ] Bing: IndexNow wurde am 26.10.2026 versucht, scheitert aber ohne Schlüsseldatei im Webroot (eine Datei in `/wp-content/uploads/` deckt nur diesen Pfad ab, Antwort 422). Optionen: Bing Webmaster Tools → URL einreichen (Login nötig) oder das offizielle Plugin „IndexNow“ von Microsoft Bing installieren, das die Schlüsseldatei im Root bereitstellt und neue Seiten automatisch meldet. Google nimmt an IndexNow nicht teil.
 - [x] Rich-Results-Test: Fehler „Feld item fehlt“ (Breadcrumb-Kollision) behoben, siehe Abschnitt 4
 - [ ] Interne Verlinkung: Link auf `/lueneburg/` aus Footer-Menü oder Startseite („Standorte: Lüneburg“) ergänzen – stärkster Hebel für die Indexierung
 - [ ] Google Unternehmensprofil: Leistungsgebiet „Lüneburg“ ergänzen und auf `/lueneburg/` verlinken
