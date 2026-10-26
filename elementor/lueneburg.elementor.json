@@ -754,7 +754,7 @@
        "id": "e429076",
        "elType": "widget",
        "settings": {
-        "title": "Ein verlorener Schlüssel, ein unbeobachteter Hof, eine Tür, die nachts offen steht: Jede dieser Lücken kostet Lüneburger Betriebe schnell einen fünfstelligen Betrag. <br><br>ProVision Infra plant, installiert und betreut deine Schließanlage und dein Kamerasystem – mechanisch, elektronisch oder kombiniert. Von unserem Sitz in Bad Bevensen sind wir in rund einer halben Stunde bei dir in Lüneburg.",
+        "title": "Ein verlorener Schlüssel, ein unbeobachteter Hof, eine Tür, die nachts offen steht: Jede dieser Lücken kostet Lüneburger Betriebe schnell einen fünfstelligen Betrag. <br><br>ProVision Infra plant, installiert und betreut Schließanlagen und Videoüberwachung in Lüneburg – mechanisch, elektronisch oder kombiniert, für Betriebe, Praxen und Gewerbe. Von unserem Sitz in Bad Bevensen sind wir in rund einer halben Stunde bei dir vor Ort.",
         "align": "start",
         "__globals__": {
          "typography_typography": "",
@@ -4739,7 +4739,7 @@
          "elType": "widget",
          "settings": {
           "typography_typography": "custom",
-          "title": "Schließanlagen für Lüneburg: <span style=\"font-weight: 700; \">mechanisch, elektronisch oder kombiniert</span>",
+          "title": "Schließanlagen &amp; Zutrittskontrolle für Lüneburg: <span style=\"font-weight: 700; \">mechanisch, elektronisch oder kombiniert</span>",
           "__globals__": {
            "title_color": "globals/colors?id=521f46a"
           },
@@ -6209,7 +6209,7 @@
                    "typography_typography": "",
                    "text_color": "globals/colors?id=521f46a"
                   },
-                  "editor": "<p>Digitale Zylinder und Beschläge, zum Beispiel von SimonsVoss: Zutritt per Transponder, KeyCard oder App. Berechtigungen vergibst und entziehst du in Sekunden – für Mitarbeitende, Reinigung, Handwerker oder Lieferanten.</p>",
+                  "editor": "<p>Digitale Zylinder und Beschläge, zum Beispiel von SimonsVoss: Zutritt per Transponder, KeyCard oder App. Berechtigungen vergibst und entziehst du in Sekunden – für Mitarbeitende, Reinigung, Handwerker oder Lieferanten. Mehr dazu auf unserer Seite zum <a href=\"/zutrittssystem/\">digitalen Zutrittssystem</a>.</p>",
                   "align": "left",
                   "_element_width": "initial",
                   "_element_custom_width": {
@@ -8383,7 +8383,7 @@
                    "typography_typography": "",
                    "text_color": "globals/colors?id=521f46a"
                   },
-                  "editor": "<p>Schließanlage und Kamerasystem planen wir gemeinsam: Wer wann welche Tür geöffnet hat, siehst du im Protokoll – und auf der Aufnahme, was dabei passiert ist.</p>",
+                  "editor": "<p>Schließanlage und Kamerasystem planen wir gemeinsam: Wer wann welche Tür geöffnet hat, siehst du im Protokoll – und auf der Aufnahme, was dabei passiert ist. Alle Details zur <a href=\"/kamerasysteme/\">Kamera- und Videoüberwachung für Unternehmen</a>.</p>",
                   "align": "left",
                   "_element_width": "initial",
                   "_element_custom_width": {
@@ -9137,7 +9137,7 @@
        "elType": "widget",
        "settings": {
         "header_size": "h2",
-        "title": "Video- &amp; Kameraüberwachung in Lüneburg",
+        "title": "Videoüberwachung in Lüneburg: Kamerasysteme für Betrieb, Lager und Praxis",
         "__globals__": {
          "title_color": "globals/colors?id=521f46a",
          "typography_typography": ""
@@ -9175,7 +9175,7 @@
          "size": 100,
          "sizes": []
         },
-        "_title": "Video- &amp; Kameraüberwachung in Lüneburg",
+        "_title": "Videoüberwachung in Lüneburg: Kamerasysteme für Betrieb, Lager und Praxis",
         "typography_typography": "custom",
         "typography_font_family": "Poppins",
         "typography_font_size": {
@@ -14183,7 +14183,7 @@
              "typography_typography": "",
              "text_color": "globals/colors?id=521f46a"
             },
-            "editor": "<p>Unser Sitz ist Bad Bevensen, rund 30 Kilometer von Lüneburg entfernt. Regelmäßig sind wir in Lüneburg, Adendorf, Bardowick, Reppenstedt, Scharnebeck, Bleckede, Winsen (Luhe), Uelzen und im gesamten Landkreis Lüneburg unterwegs.</p><p>Für Beratung, Aufmaß und Montage kommen wir direkt zu dir, sehen uns Türen, Zugänge und Gelände an und setzen Schließanlage und Kameras dort um, wo sie gebraucht werden.</p>",
+            "editor": "<p>Unser Sitz ist Bad Bevensen, rund 30 Kilometer von Lüneburg entfernt. Regelmäßig sind wir in Lüneburg, Adendorf, Bardowick, Reppenstedt, Scharnebeck, Bleckede, Winsen (Luhe), Uelzen und im gesamten Landkreis Lüneburg unterwegs.</p><p>Für Beratung, Aufmaß und Montage kommen wir direkt zu dir, sehen uns Türen, Zugänge und Gelände an und setzen Schließanlage und Kameras dort um, wo sie gebraucht werden.</p><p><strong>ProVision Infra GmbH</strong><br>Klein Hesebecker Straße 11, 29549 Bad Bevensen<br>Telefon: <a href=\"tel:+4958214049040\">05821 4049040</a><br>E-Mail: <a href=\"mailto:info@provision-infra.de\">info@provision-infra.de</a><br>Mo–Do 9–18 Uhr, Fr 9–14 Uhr</p>",
             "align": "left",
             "_element_width": "initial",
             "_element_custom_width": {
@@ -14639,7 +14639,7 @@
         "_id": "4967d0c",
         "eael_adv_accordion_tab_icon_show": "",
         "eael_adv_accordion_text_type": "content",
-        "eael_adv_accordion_tab_content": "<p>Bei Schließanlagen arbeiten wir unter anderem mit EVVA, SimonsVoss, Keyota, Keyrent und NUKI, bei Kamerasystemen mit TP-Link VIGI. Welche Komponenten zu dir passen, entscheiden wir nach der Begehung – nicht nach Katalog.</p>"
+        "eael_adv_accordion_tab_content": "<p>Bei Schließanlagen arbeiten wir unter anderem mit EVVA, SimonsVoss, Keyota, Keyrent und NUKI, bei Kamerasystemen mit TP-Link VIGI. Welche Komponenten zu dir passen, entscheiden wir nach der Begehung – nicht nach Katalog. Mehr Hintergrund findest du auf den Seiten <a href=\"/zutrittssystem/\">Zutrittssystem</a> und <a href=\"/kamerasysteme/\">Kamerasysteme</a>.</p>"
        },
        {
         "eael_adv_accordion_tab_title": "Was passiert nach der Installation?",
@@ -36778,6 +36778,7 @@
   "focuskw": "Schließanlagen Lüneburg",
   "slug": "lueneburg",
   "robots_noindex": "2",
+  "bctitle": "Lüneburg",
   "og_image": "https://provision-infra.de/wp-content/uploads/2026/05/provision_header_02-1.png"
  }
 }

@@ -78,8 +78,8 @@ def relink(root, old, new):
 H1 = '<span style="font-weight: 700;">Mechanische &amp; elektronische Schließanlagen</span><br>sowie Videoüberwachung in Lüneburg'
 HERO_SUB = ('Ein verlorener Schlüssel, ein unbeobachteter Hof, eine Tür, die nachts offen steht: '
             'Jede dieser Lücken kostet Lüneburger Betriebe schnell einen fünfstelligen Betrag. <br><br>'
-            'ProVision Infra plant, installiert und betreut deine Schließanlage und dein Kamerasystem – mechanisch, '
-            'elektronisch oder kombiniert. Von unserem Sitz in Bad Bevensen sind wir in rund einer halben Stunde bei dir in Lüneburg.')
+            'ProVision Infra plant, installiert und betreut Schließanlagen und Videoüberwachung in Lüneburg – mechanisch, '
+            'elektronisch oder kombiniert, für Betriebe, Praxen und Gewerbe. Von unserem Sitz in Bad Bevensen sind wir in rund einer halben Stunde bei dir vor Ort.')
 
 INTRO = {
     'Solange nichts passiert, denkt kaum jemand an Kameras.':
@@ -92,7 +92,7 @@ INTRO = {
 
 CARDS_HEAD = {
     'Was ohne Kameras <span style="font-weight: 700; ">auf deinem Gelände passiert?</span>':
-        'Schließanlagen für Lüneburg: <span style="font-weight: 700; ">mechanisch, elektronisch oder kombiniert</span>',
+        'Schließanlagen &amp; Zutrittskontrolle für Lüneburg: <span style="font-weight: 700; ">mechanisch, elektronisch oder kombiniert</span>',
     '<p>Fünf Situationen, die jeden Betrieb treffen können. Ohne Kameras passiert Folgendes, wenn …</p>':
         '<p>Vom klassischen Schließzylinder bis zur App-gesteuerten Zutrittskontrolle: fünf Lösungen, die wir in Lüneburg und Umgebung planen, einbauen und betreuen.</p>',
 }
@@ -102,7 +102,7 @@ CARDS = [
      '<p>Gleichschließende und zentral geschlossene Anlagen mit Sicherungskarte, zum Beispiel von EVVA. Ein Schlüssel pro Person, ein Schließplan für das ganze Gebäude – vom Haupteingang bis zum Serverraum.</p>',
      '<p>Kopierschutz und Schließplan sorgen dafür, dass du jederzeit weißt, welcher Schlüssel welche Tür in deinem Betrieb öffnet.</p>'),
     ('Elektronische Schließanlagen',
-     '<p>Digitale Zylinder und Beschläge, zum Beispiel von SimonsVoss: Zutritt per Transponder, KeyCard oder App. Berechtigungen vergibst und entziehst du in Sekunden – für Mitarbeitende, Reinigung, Handwerker oder Lieferanten.</p>',
+     '<p>Digitale Zylinder und Beschläge, zum Beispiel von SimonsVoss: Zutritt per Transponder, KeyCard oder App. Berechtigungen vergibst und entziehst du in Sekunden – für Mitarbeitende, Reinigung, Handwerker oder Lieferanten. Mehr dazu auf unserer Seite zum <a href="/zutrittssystem/">digitalen Zutrittssystem</a>.</p>',
      '<p>Geht ein Transponder verloren, sperrst du ihn mit einem Klick – statt Zylinder zu tauschen und neue Schlüssel zu verteilen.</p>'),
     ('Smarte Türschlösser für Büro, Praxis und kleine Betriebe',
      '<p>Nachrüstbare Lösungen wie NUKI für einzelne Türen: ohne Verkabelung, in wenigen Stunden montiert, bedienbar per App, Code oder Transponder.</p>',
@@ -111,7 +111,7 @@ CARDS = [
      '<p>Du hast bereits eine mechanische Anlage? Wir ersetzen einzelne Zylinder durch digitale Komponenten und bauen schrittweise um, während der Betrieb weiterläuft. Herstellerneutral mit EVVA, SimonsVoss, Keyota, Keyrent und NUKI.</p>',
      '<p>Kein Stillstand und keine neue Anlage auf einen Schlag – am Ende stimmt der Schließplan wieder und jede Tür ist dokumentiert.</p>'),
     ('Zutritt und Videoüberwachung aus einer Hand',
-     '<p>Schließanlage und Kamerasystem planen wir gemeinsam: Wer wann welche Tür geöffnet hat, siehst du im Protokoll – und auf der Aufnahme, was dabei passiert ist.</p>',
+     '<p>Schließanlage und Kamerasystem planen wir gemeinsam: Wer wann welche Tür geöffnet hat, siehst du im Protokoll – und auf der Aufnahme, was dabei passiert ist. Alle Details zur <a href="/kamerasysteme/">Kamera- und Videoüberwachung für Unternehmen</a>.</p>',
      '<p>Eine Begehung in Lüneburg, ein Konzept, ein Ansprechpartner – für Türen, Tore und Gelände.</p>'),
 ]
 CARD5_HINT = {
@@ -120,7 +120,7 @@ CARD5_HINT = {
 }
 
 GLASS = {
-    'So arbeiten wir': 'Video- &amp; Kameraüberwachung in Lüneburg',
+    'So arbeiten wir': 'Videoüberwachung in Lüneburg: Kamerasysteme für Betrieb, Lager und Praxis',
     'Jede Kamera planen wir nach einer Begehung vor Ort. Im Ernstfall zeigt sie den Täter, nicht den Parkplatz.':
         'Jede Kamera planen wir nach einer Begehung vor Ort in Lüneburg. Im Ernstfall zeigt sie den Täter, nicht den Parkplatz.',
     'Aufzeichnung und App sind eingerichtet, bevor wir vom Hof fahren. Dein Handy schlägt ab dem ersten Tag Alarm.':
@@ -145,7 +145,7 @@ MAP = {
     'Hier findest du <br><span style="font-weight: 700; ">ProVision Infra</span>':
         'ProVision Infra <br><span style="font-weight: 700; ">in Lüneburg und Umgebung</span>',
     '<p>Wir sitzen in Norddeutschland und sind vor allem im Raum Hamburg, Hannover und Niedersachsen unterwegs. Darüber hinaus sind wir bundesweit im Einsatz.</p><p>Für Beratung, Planung und Umsetzung kommen wir direkt zu dir vor Ort, schauen uns deine Situation an und setzen das System dort um, wo es gebraucht wird.</p>':
-        '<p>Unser Sitz ist Bad Bevensen, rund 30 Kilometer von Lüneburg entfernt. Regelmäßig sind wir in Lüneburg, Adendorf, Bardowick, Reppenstedt, Scharnebeck, Bleckede, Winsen (Luhe), Uelzen und im gesamten Landkreis Lüneburg unterwegs.</p><p>Für Beratung, Aufmaß und Montage kommen wir direkt zu dir, sehen uns Türen, Zugänge und Gelände an und setzen Schließanlage und Kameras dort um, wo sie gebraucht werden.</p>',
+        '<p>Unser Sitz ist Bad Bevensen, rund 30 Kilometer von Lüneburg entfernt. Regelmäßig sind wir in Lüneburg, Adendorf, Bardowick, Reppenstedt, Scharnebeck, Bleckede, Winsen (Luhe), Uelzen und im gesamten Landkreis Lüneburg unterwegs.</p><p>Für Beratung, Aufmaß und Montage kommen wir direkt zu dir, sehen uns Türen, Zugänge und Gelände an und setzen Schließanlage und Kameras dort um, wo sie gebraucht werden.</p><p><strong>ProVision Infra GmbH</strong><br>Klein Hesebecker Straße 11, 29549 Bad Bevensen<br>Telefon: <a href="tel:+4958214049040">05821 4049040</a><br>E-Mail: <a href="mailto:info@provision-infra.de">info@provision-infra.de</a><br>Mo–Do 9–18 Uhr, Fr 9–14 Uhr</p>',
 }
 
 FAQ = [
@@ -162,7 +162,7 @@ FAQ = [
     ('Kann ich Zutritt und Kameras in einem System verbinden?',
      '<p>Ja. Öffnet jemand eine Tür per Transponder oder App, siehst du im Protokoll, wer es war, und auf der Aufnahme, was passiert ist. Wir planen beides zusammen, damit Kamerastandorte und Zugänge zueinander passen.</p>'),
     ('Welche Hersteller verbaut ProVision Infra?',
-     '<p>Bei Schließanlagen arbeiten wir unter anderem mit EVVA, SimonsVoss, Keyota, Keyrent und NUKI, bei Kamerasystemen mit TP-Link VIGI. Welche Komponenten zu dir passen, entscheiden wir nach der Begehung – nicht nach Katalog.</p>'),
+     '<p>Bei Schließanlagen arbeiten wir unter anderem mit EVVA, SimonsVoss, Keyota, Keyrent und NUKI, bei Kamerasystemen mit TP-Link VIGI. Welche Komponenten zu dir passen, entscheiden wir nach der Begehung – nicht nach Katalog. Mehr Hintergrund findest du auf den Seiten <a href="/zutrittssystem/">Zutrittssystem</a> und <a href="/kamerasysteme/">Kamerasysteme</a>.</p>'),
     ('Was passiert nach der Installation?',
      '<p>Wir übergeben die Anlage erst, wenn alles so funktioniert wie vereinbart, und halten das schriftlich fest. Danach bleiben wir Ansprechpartner für Erweiterungen, Nachschlüssel, neue Transponder und Wartung.</p>'),
 ]
@@ -340,9 +340,22 @@ page_settings = copy.deepcopy(H['settings'])
 page_settings.update({'post_title': 'Schließanlagen & Videoüberwachung Lüneburg', 'post_status': 'publish',
                       'custom_css': H['settings']['custom_css']})
 
+MEDIA_ALT = {
+    407: 'ProVision Infra GmbH Logo',
+    397: 'Google-Bewertung: 5 von 5 Sternen',
+    3058: 'Film: ProVision Infra plant und installiert Schließanlagen und Zutrittssysteme',
+    276: 'Karte Norddeutschland: Einsatzgebiet von ProVision Infra rund um Lüneburg, Hamburg und Hannover',
+    176: 'Fünf Sterne Google-Bewertung',
+    273: 'Partner-Logos: Keyota, EVVA Certified Partner, Keyrent, SimonsVoss, EVVA',
+    1337: 'Partner-Logos: Keyota und EVVA Certified Partner',
+    1338: 'Partner-Logos: Keyrent und SimonsVoss',
+    1339: 'Partner-Logo: EVVA',
+}
+json.dump(MEDIA_ALT, open(f'{OUT}/media-alt-texte.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
 json.dump({'elements': els, 'settings': page_settings,
            'seo': {'title': SEO_TITLE, 'description': SEO_DESC, 'focuskw': 'Schließanlagen Lüneburg',
-                   'slug': 'lueneburg', 'robots_noindex': '2',
+                   'slug': 'lueneburg', 'robots_noindex': '2', 'bctitle': 'Lüneburg',
                    'og_image': f'{SITE}/wp-content/uploads/2026/05/provision_header_02-1.png'}},
           open(f'{OUT}/lueneburg.elementor.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
