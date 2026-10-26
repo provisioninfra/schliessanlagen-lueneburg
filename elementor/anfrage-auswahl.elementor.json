@@ -108,7 +108,7 @@
      "id": "99ee72d",
      "elType": "widget",
      "settings": {
-      "title": "Wofür suchst du eine Lösung?",
+      "title": "Bitte fülle den Fragebogen aus, damit sich unser Team bestmöglich auf deinen Termin vorbereiten kann. Im nächsten Schritt kannst du ein Datum und eine Uhrzeit für dein Gespräch auswählen.",
       "header_size": "h4",
       "align": "center",
       "typography_typography": "custom",
@@ -169,7 +169,7 @@
      "id": "5a81733",
      "elType": "widget",
      "settings": {
-      "editor": "<p>Wähle aus, worum es bei dir geht: Schließsystem, Kamerasystem oder beides. Danach stellen wir dir ein paar kurze Fragen, damit sich unser Team optimal auf dein Erstgespräch vorbereiten kann.</p>",
+      "editor": "<p>In dem gemeinsamen Gespräch schauen wir uns deine aktuelle Situation an, wie der Zutritt bei dir geregelt ist und welche konkreten Maßnahmen wir empfehlen, um auf ein digitales Schließsystem umzurüsten. Wir zeigen dir hier gern schon aktuelle Technologien und geben konkrete Erfahrungswerte mit, wie du dein Unternehmen sicher aufstellst.</p>",
       "align": "center",
       "_element_width": "initial",
       "_element_custom_width": {

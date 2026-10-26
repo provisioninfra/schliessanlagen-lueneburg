@@ -226,12 +226,21 @@ els.append(hero)
 els.append(grab(H, 'd135e80'))
 els.append(grab(K, '67b8213'))
 
-# 3 Intro / Region (Logo + drei Punkte)
-intro = grab(K, '371b95f')
-replace_text(intro, INTRO)
-set_setting(intro, '371b95f', '_element_id', 'region')
-set_setting(intro, '371b95f', '_title', 'Region Lüneburg')
-els.append(intro)
+# 3 Region mit Film (Startseite: Vimeo-Video + drei Punkte + Glass-Cards), Texte auf Lüneburg angepasst
+film = grab(H, '34dc7fa')
+replace_text(film, {
+    'Solange alles funktioniert, hinterfragt kaum jemand das Thema Schlüssel.':
+        'Sicherheitstechnik für Lüneburg – geplant und montiert aus der Region.',
+})
+find([film], '7df04ae')['settings']['editor'] = INTRO['<p>Erst nach dem Einbruch wird klar, was fehlt. Ohne verwertbare Aufnahmen hat die Polizei nichts in der Hand, und die Versicherung verlangt Belege, die du nicht liefern kannst. Der Schaden bleibt an dir hängen.</p>']
+find([film], 'd38dec5')['settings']['editor'] = INTRO['<p>Mit einer Videoüberwachung von ProVision Infra siehst du jederzeit per App, was auf deinem Geländ'+'e passiert. Dein Handy meldet sich bei Bewegung, und im Ernstfall hast du Aufnahmen, mit denen Polizei und Versicherung arbeiten können.</p>']
+for w in walk(film):
+    if w.get('widgetType') == 'video':
+        w['settings']['_title'] = 'Film ProVision Infra (Vimeo, wie Startseite)'
+set_setting(film, '34dc7fa', '_element_id', 'region')
+set_setting(film, '34dc7fa', '_title', 'Region Lüneburg + Film')
+set_setting(film, '58d331d', 'title', 'ProVision Infra installiert dir genau das, damit du in Lüneburg')
+els.append(film)
 
 # 4 Schliessanlagen-Karten
 cards = grab(K, 'd7f768f')
@@ -350,8 +359,8 @@ def contact_page(title, heading, text, form_id, slug, seo_title):
             'seo': {'title': seo_title, 'description': '', 'focuskw': '', 'slug': slug, 'robots_noindex': '1'}}
 
 json.dump(contact_page('Funnel-Unterseite',
-    'Wofür suchst du eine Lösung?',
-    '<p>Wähle aus, worum es bei dir geht: Schließsystem, Kamerasystem oder beides. Danach stellen wir dir ein paar kurze Fragen, damit sich unser Team optimal auf dein Erstgespräch vorbereiten kann.</p>',
+    'Bitte fülle den Fragebogen aus, damit sich unser Team bestmöglich auf deinen Termin vorbereiten kann. Im nächsten Schritt kannst du ein Datum und eine Uhrzeit für dein Gespräch auswählen.',
+    '<p>In dem gemeinsamen Gespräch schauen wir uns deine aktuelle Situation an, wie der Zutritt bei dir geregelt ist und welche konkreten Maßnahmen wir empfehlen, um auf ein digitales Schließsystem umzurüsten. Wir zeigen dir hier gern schon aktuelle Technologien und geben konkrete Erfahrungswerte mit, wie du dein Unternehmen sicher aufstellst.</p>',
     FUNNEL_FORM_ID, 'anfrage-auswahl', 'Anfrage – ProVision Infra'),
     open(f'{OUT}/anfrage-auswahl.elementor.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
