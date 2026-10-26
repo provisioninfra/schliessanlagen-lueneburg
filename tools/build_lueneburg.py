@@ -231,6 +231,10 @@ els.append(grab(K, '67b8213'))
 
 # 3 Region mit Film (Startseite: Vimeo-Video + drei Punkte + Glass-Cards), Texte auf Lüneburg angepasst
 film = grab(H, '34dc7fa')
+# Nur der obere Teil des Startseiten-Abschnitts (Video links mit fadeInLeft, drei Punkte rechts mit fadeInRight);
+# die Glass-Cards "ProVision Infra installiert dir genau das ..." gehoeren nicht zum Intro der Luenburg-Seite.
+film['elements'] = [c for c in film['elements'] if c['id'] == '7dfcfda']
+assert len(film['elements']) == 1
 replace_text(film, {
     'Solange alles funktioniert, hinterfragt kaum jemand das Thema Schlüssel.':
         'Sicherheitstechnik für Lüneburg – geplant und montiert aus der Region.',
@@ -242,7 +246,6 @@ for w in walk(film):
         w['settings']['_title'] = 'Film ProVision Infra (Vimeo, wie Startseite)'
 set_setting(film, '34dc7fa', '_element_id', 'region')
 set_setting(film, '34dc7fa', '_title', 'Region Lüneburg + Film')
-set_setting(film, '58d331d', 'title', 'ProVision Infra installiert dir genau das, damit du in Lüneburg')
 els.append(film)
 
 # 4 Schliessanlagen-Karten
