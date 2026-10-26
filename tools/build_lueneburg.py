@@ -244,6 +244,10 @@ find([film], 'd38dec5')['settings']['editor'] = INTRO['<p>Mit einer Videoüberwa
 for w in walk(film):
     if w.get('widgetType') == 'video':
         w['settings']['_title'] = 'Film ProVision Infra (Vimeo, wie Startseite)'
+# Rahmen eng am Video halten: Zeile vertikal zentrieren (Desktop); Tablet/Mobil stapeln als Spalte -> stretch beibehalten
+set_setting(film, '7dfcfda', 'flex_align_items', 'center')
+set_setting(film, '7dfcfda', 'flex_align_items_tablet', 'stretch')
+set_setting(film, '7dfcfda', 'flex_align_items_mobile', 'stretch')
 set_setting(film, '34dc7fa', '_element_id', 'region')
 set_setting(film, '34dc7fa', '_title', 'Region Lüneburg + Film')
 els.append(film)

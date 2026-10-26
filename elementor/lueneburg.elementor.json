@@ -2602,7 +2602,10 @@
      "settings": {
       "content_width": "full",
       "flex_direction": "row",
-      "flex_direction_tablet": "column"
+      "flex_direction_tablet": "column",
+      "flex_align_items": "center",
+      "flex_align_items_tablet": "stretch",
+      "flex_align_items_mobile": "stretch"
      },
      "elements": [
       {
