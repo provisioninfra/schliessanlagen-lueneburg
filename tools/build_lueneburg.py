@@ -17,6 +17,7 @@ H = json.load(open(f'{DUMP}/elementor_31.json', encoding='utf-8'))     # Startse
 C = json.load(open(f'{DUMP}/elementor_4371.json', encoding='utf-8'))   # Kontakt Kamerasysteme
 
 FUNNEL_URL = '/anfrage-auswahl/'
+MENU_SLUG = 'menue-lueneburg'  # WordPress-Menü „Menü Lüneburg“ (ID 18); WP leitet den Slug aus dem Namen ab
 SITE = 'https://provision-infra.de'
 
 def _find(els, eid):
@@ -213,7 +214,7 @@ els = []
 
 # 1 Header
 header = grab(K, '192a273')
-set_setting(header, '2a487ab', 'menu', 'lueneburg')
+set_setting(header, '2a487ab', 'menu', MENU_SLUG)
 els.append(header)
 
 # 2 Hero (Startseite: Tuer-Video) + mobiler Videoblock + Kennzahlen (mobil)
@@ -304,8 +305,8 @@ els.append(faq)
 # 12 Partner, Footer, ProvenExpert-Badge
 els.append(grab(K, '88956c0'))
 footer = grab(K, '9fafb57')
-set_setting(footer, '59b27e3', 'menu', 'lueneburg')
-set_setting(footer, 'a430424', 'menu', 'lueneburg')
+set_setting(footer, '59b27e3', 'menu', MENU_SLUG)
+set_setting(footer, 'a430424', 'menu', MENU_SLUG)
 els.append(footer)
 els.append(grab(K, 'af73376'))
 

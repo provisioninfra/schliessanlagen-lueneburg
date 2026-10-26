@@ -286,7 +286,7 @@
          "elType": "widget",
          "settings": {
           "menu_name": "Menu",
-          "menu": "lueneburg",
+          "menu": "menue-lueneburg",
           "pointer": "none",
           "menu_typography_typography": "custom",
           "menu_typography_font_family": "Poppins",
@@ -21417,7 +21417,7 @@
             "user_visit_count": 3
            }
           ],
-          "menu": "lueneburg",
+          "menu": "menue-lueneburg",
           "align_items": "center",
           "pointer": "none",
           "full_width": "stretch",
@@ -24058,7 +24058,7 @@
             "user_visit_count": 3
            }
           ],
-          "menu": "lueneburg",
+          "menu": "menue-lueneburg",
           "align_items": "center",
           "pointer": "none",
           "full_width": "stretch",

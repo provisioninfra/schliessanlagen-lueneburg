@@ -11,7 +11,7 @@ Angelegte Objekte in WordPress (alle drei Seiten **veröffentlicht** am 24.10.20
 | Seite „Kontakt Schließ- & Kamerasysteme“ | 4498 | `/kontakt-kombiniert/`, noindex, enthält Formular 6 |
 | Gravity Form „Funnel Auswahl (Lüneburg / alle Unterseiten)“ | 5 | Weiterleitungen: Schließsystem → Seite 42, Kamerasysteme → Seite 4371, Beides → Seite 4498 |
 | Gravity Form „Anfrageformular Schließ- & Kamerasysteme“ | 6 | Standard → Seite 3617 (Termin), LQ-Regel → Seite 823, Admin-Benachrichtigung an anfragen@provision-infra.de |
-| Menü „Menü Lüneburg“ (Slug `lueneburg`) | 18 | fünf Anker-Links, in Header und Footer der Lüneburg-Seite eingebunden. Der Name beginnt bewusst mit „Me…“: WordPress nutzt bei Nav-Widgets ohne gültiges Menü (Footer-Widgets „karriere-menu“ auf allen Seiten) das alphabetisch erste Menü als Fallback, das muss „Main“ bleiben. |
+| Menü „Menü Lüneburg“ (Slug `menue-lueneburg`) | 18 | fünf Anker-Links, in Header und Footer der Lüneburg-Seite eingebunden. Der Name beginnt bewusst mit „Me…“: WordPress nutzt bei Nav-Widgets ohne gültiges Menü (Footer-Widgets „karriere-menu“ auf allen Seiten) das alphabetisch erste Menü als Fallback, das muss „Main“ bleiben. |
 
 Zusätzlich wurde in Gravity Forms → Einstellungen → REST API der Zugriff aktiviert (nötig zum Anlegen der Formulare; kann wieder deaktiviert werden).
 
