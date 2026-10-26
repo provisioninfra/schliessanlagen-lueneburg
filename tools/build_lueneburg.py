@@ -174,6 +174,8 @@ SEO_DESC = ('Mechanische & elektronische Schließanlagen und Videoüberwachung i
 assert len(SEO_TITLE) <= 60, len(SEO_TITLE)
 assert len(SEO_DESC) <= 160, len(SEO_DESC)
 
+# Hinweis: WebPage + BreadcrumbList liefert Yoast, FAQPage liefert das EA-Akkordeon-Widget selbst.
+# Eigene Kopien fuehrten zu @id-Kollisionen (GSC: "Feld item fehlt") und doppeltem FAQ-Markup.
 SCHEMA = {
   "@context": "https://schema.org",
   "@graph": [
@@ -191,12 +193,6 @@ SCHEMA = {
                     {"@type": "City", "name": "Hamburg"}, {"@type": "State", "name": "Niedersachsen"}],
      "sameAs": ["https://www.instagram.com/provision_infra_gmbh/", "https://www.facebook.com/share/1CWs2rohMt/",
                 "https://www.linkedin.com/company/provision-infra-gmbh-i-g/"]},
-    {"@type": "WebPage", "@id": f"{SITE}/lueneburg/#webpage", "url": f"{SITE}/lueneburg/", "name": SEO_TITLE,
-     "description": SEO_DESC, "inLanguage": "de", "isPartOf": {"@id": f"{SITE}/#website"},
-     "about": {"@id": f"{SITE}/#organisation"}, "breadcrumb": {"@id": f"{SITE}/lueneburg/#breadcrumb"}},
-    {"@type": "BreadcrumbList", "@id": f"{SITE}/lueneburg/#breadcrumb", "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": f"{SITE}/"},
-        {"@type": "ListItem", "position": 2, "name": "Schließanlagen & Videoüberwachung Lüneburg", "item": f"{SITE}/lueneburg/"}]},
     {"@type": "Service", "@id": f"{SITE}/lueneburg/#schliessanlagen", "name": "Mechanische und elektronische Schließanlagen in Lüneburg",
      "serviceType": "Schließanlagen und Zutrittskontrolle", "url": f"{SITE}/lueneburg/#schliessanlagen",
      "description": "Planung, Montage und Betreuung mechanischer und elektronischer Schließanlagen (EVVA, SimonsVoss, Keyota, Keyrent, NUKI) für Unternehmen in Lüneburg und im Landkreis Lüneburg.",
@@ -209,8 +205,6 @@ SCHEMA = {
      "provider": {"@id": f"{SITE}/#organisation"},
      "areaServed": [{"@type": "City", "name": "Lüneburg"}, {"@type": "AdministrativeArea", "name": "Landkreis Lüneburg"}],
      "audience": {"@type": "BusinessAudience", "name": "Unternehmen, Betriebe und Gewerbe"}},
-    {"@type": "FAQPage", "@id": f"{SITE}/lueneburg/#faq", "mainEntity": [
-        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": strip_tags(a)}} for q, a in FAQ]},
   ]
 }
 
@@ -310,6 +304,8 @@ els.append(faq)
 # 12 Partner, Footer, ProvenExpert-Badge
 els.append(grab(K, '88956c0'))
 footer = grab(K, '9fafb57')
+set_setting(footer, '59b27e3', 'menu', 'lueneburg')
+set_setting(footer, 'a430424', 'menu', 'lueneburg')
 els.append(footer)
 els.append(grab(K, 'af73376'))
 

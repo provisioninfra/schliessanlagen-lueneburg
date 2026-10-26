@@ -11,7 +11,7 @@ Angelegte Objekte in WordPress (alle drei Seiten **veröffentlicht** am 24.10.20
 | Seite „Kontakt Schließ- & Kamerasysteme“ | 4498 | `/kontakt-kombiniert/`, noindex, enthält Formular 6 |
 | Gravity Form „Funnel Auswahl (Lüneburg / alle Unterseiten)“ | 5 | Weiterleitungen: Schließsystem → Seite 42, Kamerasysteme → Seite 4371, Beides → Seite 4498 |
 | Gravity Form „Anfrageformular Schließ- & Kamerasysteme“ | 6 | Standard → Seite 3617 (Termin), LQ-Regel → Seite 823, Admin-Benachrichtigung an anfragen@provision-infra.de |
-| Menü „Lüneburg“ | 18 | fünf Anker-Links, im Header der Lüneburg-Seite eingebunden |
+| Menü „Menü Lüneburg“ (Slug `lueneburg`) | 18 | fünf Anker-Links, in Header und Footer der Lüneburg-Seite eingebunden. Der Name beginnt bewusst mit „Me…“: WordPress nutzt bei Nav-Widgets ohne gültiges Menü (Footer-Widgets „karriere-menu“ auf allen Seiten) das alphabetisch erste Menü als Fallback, das muss „Main“ bleiben. |
 
 Zusätzlich wurde in Gravity Forms → Einstellungen → REST API der Zugriff aktiviert (nötig zum Anlegen der Formulare; kann wieder deaktiviert werden).
 
@@ -62,12 +62,18 @@ Funnel-Seiten (`/anfrage-auswahl/`, `/kontakt-kombiniert/`) sind wie die bestehe
 
 ## 4. Strukturierte Daten (JSON-LD im letzten Abschnitt)
 
-- `LocalBusiness` + `Locksmith` (Organisation, Adresse Bad Bevensen, Öffnungszeiten, `areaServed` Lüneburg / Landkreis Lüneburg / Uelzen / Hamburg / Niedersachsen)
-- `WebPage` + `BreadcrumbList` (Startseite → Lüneburg)
-- 2× `Service` (Schließanlagen, Videoüberwachung) mit `areaServed` Lüneburg
-- `FAQPage` mit allen 8 Fragen (Textfassung ohne HTML)
+Eigenes JSON-LD (HTML-Widget am Seitenende):
 
-Yoast ergänzt automatisch `WebSite`, `WebPage` und `BreadcrumbList`; doppelte Breadcrumbs sind unkritisch, können aber in Yoast → Schema deaktiviert werden.
+- `LocalBusiness` + `Locksmith` (Organisation, Adresse Bad Bevensen, Öffnungszeiten, `areaServed` Lüneburg / Landkreis Lüneburg / Uelzen / Hamburg / Niedersachsen)
+- 2× `Service` (Schließanlagen, Videoüberwachung) mit `areaServed` Lüneburg
+
+Automatisch von Plugins erzeugt (deshalb **nicht** im eigenen JSON-LD):
+
+- Yoast: `WebSite`, `WebPage`, `ImageObject`, `BreadcrumbList` (Startseite → Lüneburg)
+- Essential Addons Advanced Accordion: `FAQPage` mit allen 8 Fragen
+- ProvenExpert-Widget: `Product` mit `AggregateRating` (wie auf allen Seiten)
+
+Lerneffekt vom 26.10.2026: Die erste Fassung enthielt zusätzlich eigene `WebPage`-, `BreadcrumbList`- und `FAQPage`-Knoten. Die eigene `BreadcrumbList` hatte dieselbe `@id` wie die von Yoast (`/lueneburg/#breadcrumb`); Google hat beide Listen zu einer verschmolzen und für das Yoast-Element ohne `item` den kritischen Fehler „Feld item fehlt“ gemeldet. Die Kopien wurden entfernt.
 
 ## 5. FAQ (Keyword-Abdeckung)
 
@@ -96,11 +102,11 @@ UTM-Parameter (utm_source … fbclid) werden im Funnel-Formular als versteckte F
 ## 7. Indexierung – Checkliste nach Veröffentlichung
 
 - [x] Seite in WordPress veröffentlichen (Status „Entwurf“ → „Veröffentlicht“), Funnel- und Kombi-Seite ebenfalls
-- [ ] `https://provision-infra.de/page-sitemap.xml` enthält `/lueneburg/` (Yoast automatisch, Cache von WP Rocket ggf. leeren)
-- [ ] `https://provision-infra.de/lueneburg/` liefert 200, Canonical auf sich selbst, `robots` = index,follow
-- [ ] Google Search Console → URL-Prüfung → „Indexierung beantragen“
-- [ ] Bing Webmaster Tools → URL einreichen (optional)
-- [ ] Rich-Results-Test (https://search.google.com/test/rich-results) für FAQ/LocalBusiness
+- [x] `https://provision-infra.de/page-sitemap.xml` enthält `/lueneburg/` (geprüft 24.10.2026)
+- [x] `https://provision-infra.de/lueneburg/` liefert 200, Canonical auf sich selbst, `robots` = index,follow (geprüft 24.10.2026)
+- [ ] Google Search Console → URL-Prüfung → „Indexierung beantragen“ (nur mit Google-Login möglich; nach dem Schema-Fix vom 26.10.2026 zuerst „Live-URL testen“, dann beantragen)
+- [x] IndexNow (Bing, Yandex, Seznam, Naver): Schlüsseldatei in der Mediathek, URL am 26.10.2026 gemeldet; Google nimmt an IndexNow nicht teil
+- [x] Rich-Results-Test: Fehler „Feld item fehlt“ (Breadcrumb-Kollision) behoben, siehe Abschnitt 4
 - [ ] Interne Verlinkung: Link auf `/lueneburg/` aus Footer-Menü oder Startseite („Standorte: Lüneburg“) ergänzen – stärkster Hebel für die Indexierung
 - [ ] Google Unternehmensprofil: Leistungsgebiet „Lüneburg“ ergänzen und auf `/lueneburg/` verlinken
 - [ ] PageSpeed prüfen (Hero-Video wird auf Mobil durch den separaten Mobil-Block ersetzt, wie auf der Startseite)
