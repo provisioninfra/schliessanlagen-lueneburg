@@ -1,7 +1,7 @@
 {
  "elements": [
   {
-   "id": "8754a23",
+   "id": "698770c",
    "elType": "container",
    "settings": {
     "flex_direction": "column",
@@ -105,7 +105,7 @@
    },
    "elements": [
     {
-     "id": "830778d",
+     "id": "a1ede7e",
      "elType": "widget",
      "settings": {
       "title": "Bitte fülle den Fragebogen aus, damit sich unser Team bestmöglich auf deinen Termin vorbereiten kann. Im nächsten Schritt kannst du ein Datum und eine Uhrzeit für dein Gespräch auswählen.",
@@ -166,7 +166,7 @@
      "widgetType": "heading"
     },
     {
-     "id": "f77cc3d",
+     "id": "5195465",
      "elType": "widget",
      "settings": {
       "editor": "<p>Im Gespräch klären wir, welche Türen und Zugänge du regeln willst, welche Bereiche du im Blick haben willst und wie beides zusammenspielt. Dazu bekommst du eine erste Einschätzung zu Aufwand und Kosten.</p>",
@@ -186,7 +186,7 @@
      "widgetType": "text-editor"
     },
     {
-     "id": "0e7e11c",
+     "id": "020c2b7",
      "elType": "widget",
      "settings": {
       "contact_form_list": "6",

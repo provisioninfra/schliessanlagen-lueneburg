@@ -174,8 +174,7 @@ FAQ = [
 def strip_tags(s): return re.sub(r'\s+', ' ', re.sub('<[^>]+>', '', s)).replace('&amp;', '&').strip()
 
 SEO_TITLE = 'Schließanlagen & Videoüberwachung Lüneburg | ProVision Infra'
-SEO_DESC = ('Schließanlagen (mechanisch & elektronisch) und Videoüberwachung in Lüneburg: ProVision Infra plant, '
-            'installiert und betreut dein System vor Ort. Jetzt Erstgespräch sichern.')
+SEO_DESC = ('Schließanlagen & Videoüberwachung in Lüneburg: ProVision Infra plant, installiert und betreut dein System vor Ort. Jetzt unverbindliches Erstgespräch sichern.')
 assert len(SEO_TITLE) <= 60, len(SEO_TITLE)
 assert len(SEO_DESC) <= 160, len(SEO_DESC)
 
