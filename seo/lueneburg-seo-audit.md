@@ -33,7 +33,7 @@ Abgrenzung zu bestehenden Seiten: `/zutrittssystem/` und `/kamerasysteme/` ziele
 - FAQ auf 10 Fragen erweitert (Kosten, mechanisch vs. elektronisch, Umrüstung, Anfahrt, Datenschutz Kamera, Kombination, Hersteller, Betreuung, Einbaudauer, Wartung). Die Fragen entsprechen typischen Long-Tail-Suchanfragen.
 - NAP-Block (Name, Adresse, Telefon mit `tel:`-Link, E-Mail, Öffnungszeiten) im Standort-Abschnitt, identisch mit dem Schema und dem Impressum.
 - Interne Verlinkung: Karte „Elektronische Schließanlagen“ → `/zutrittssystem/`, Karte „Zutritt und Videoüberwachung aus einer Hand“ → `/kamerasysteme/`, FAQ 7 → beide Seiten; alle CTAs → `/anfrage-auswahl/`.
-- Eingehende Links: Hauptmenü (Aufklappmenü „Mehr“ → Lüneburg) auf allen Seiten in Header und Footer, Sitemap.
+- Eingehende Links: aktuell nur die Sitemap (der Menüpunkt „Lüneburg“ wurde auf Wunsch wieder entfernt). Empfehlung: dezenter Textlink im Footer oder im Standort-Abschnitt der Startseite.
 
 ### Bilder
 - Alt-Texte in der Mediathek gesetzt (Logo, Google-Bewertung, Film-Vorschaubild, Deutschlandkarte, Sterne, Partner-Logos). Kamera-Produktbilder hatten bereits beschreibende Alt-Texte. Rein dekorative Linien und Icons bleiben ohne Alt-Text (korrekt für Screenreader).
@@ -82,7 +82,7 @@ Die gemessenen Ist-Werte nach Veröffentlichung stehen in Abschnitt 6.
 | H2 / H3 | 11 sichtbare H2 (18 im DOM inkl. Mobil-Varianten), H3 nur in Karten/Ablauf/FAQ | ok |
 | Wörter im sichtbaren Text | ca. 1.850 (ohne Cookie-Dialog) | ok für eine lokale Leistungsseite |
 | Keyword-Vorkommen | „Schließanlage(n)“ 26×, „Videoüberwachung“ 15×, „Lüneburg“ 31×, „Zutrittskontrolle“ 5×, „Bad Bevensen“ 7×, Hersteller 2–5× | natürlich verteilt, kein Stuffing |
-| Interne Links | `/zutrittssystem/`, `/kamerasysteme/`, `/anfrage-auswahl/` (3 CTAs), Footer-Links; eingehend aus dem Hauptmenü aller Seiten | ok |
+| Interne Links | ausgehend: `/zutrittssystem/`, `/kamerasysteme/`, `/anfrage-auswahl/` (3 CTAs), Footer-Links; eingehend: nur Sitemap (Menüpunkt auf Wunsch entfernt) | eingehender Link empfohlen |
 | Kontakt-Signale | 1× `tel:`, 1× `mailto:`, Adresse + Öffnungszeiten im Text und im Schema | ok |
 | Strukturierte Daten | Yoast WebPage/Breadcrumb/WebSite, LocalBusiness+Locksmith, 2× Service, FAQPage (10 Fragen), Product/AggregateRating | gültig, keine doppelten @id mehr |
 | Bilder | 26 `<img>`; beschreibende Alt-Texte für Logo, Google-Bewertung, Film-Vorschau, Karte, Partner-Logos, Kameras; dekorative Linien/Icons ohne Alt | ok |
@@ -95,4 +95,4 @@ Prüfskript: `python3 -I tools/audit_live.py <html-datei>` (Live-HTML z. B. mit 
 
 - 24.10.2026: Seite, Funnel-Seiten, Formulare, Menü angelegt und veröffentlicht.
 - 26.10.2026: Schema bereinigt (GSC-Fehler „Feld item fehlt“), Menü-Fallback korrigiert, Film-Abschnitt, Leistungsübersicht, Zielgruppen, 10 FAQ, interne Links, NAP-Block, Description mit CTA.
-- 27.10.2026: Landeseiten-Vorlagen für Formular 5/6, HQ/LQ-Weiterleitungen (Formular 2/4/6), Hauptmenü mit Aufklappmenü „Mehr“ (Lüneburg verlinkt), Alt-Texte, Video-Rahmen, Auswahlseite mit Einleitungstext für beide Themen und Button „Weiter →“.
+- 27.10.2026: Landeseiten-Vorlagen für Formular 5/6, HQ/LQ-Weiterleitungen (Formular 2/4/6), Hauptmenü mit Aufklappmenü „Mehr“, Alt-Texte, Video-Rahmen, Auswahlseite mit Einleitungstext für beide Themen und Button „Weiter →“. Menüpunkt „Lüneburg“ auf Wunsch wieder entfernt.

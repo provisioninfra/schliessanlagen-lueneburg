@@ -12,7 +12,7 @@ Angelegte Objekte in WordPress (alle drei Seiten **veröffentlicht** am 24.10.20
 | Gravity Form „Funnel Auswahl (Lüneburg / alle Unterseiten)“ | 5 | Weiterleitungen: Schließsystem → Seite 42, Kamerasysteme → Seite 4371, Beides → Seite 4498 |
 | Gravity Form „Anfrageformular Schließ- & Kamerasysteme“ | 6 | Standard → Seite 3617 (Termin), LQ-Regel → Seite 823, Admin-Benachrichtigung an anfragen@provision-infra.de |
 | Landeseiten-Formularvorlagen (Plugin „Landeseiten Form for Gravity Forms“) | 4598 (Formular 5), 4599 (Formular 6) | Kopien der Vorlage „Kontakt test“ (Formular 2): Reveal-Modus, Poppins, Akzent #fbc91b, 800 px; Button der Auswahlseite „Weiter →“ |
-| Hauptmenü „Main“ (ID 6), umgebaut am 27.10.2026 | Einträge 413, 414, 4568, 415, 416, 4617, 4558 | sichtbar: „Mit digitalen Schlüsseln Kosten sparen“, „So arbeiten wir zusammen“; Aufklappmenü „Mehr“: „Über uns“, „FAQ“, „Lüneburg“ (→ `/lueneburg/`), zuletzt „Komm in unser Team“ |
+| Hauptmenü „Main“ (ID 6), umgebaut am 27.10.2026 | Einträge 413, 414, 4568, 415, 416, 4558 | sichtbar: „Mit digitalen Schlüsseln Kosten sparen“, „So arbeiten wir zusammen“; Aufklappmenü „Mehr“: „Über uns“, „FAQ“, zuletzt „Komm in unser Team“. Der Punkt „Lüneburg“ wurde auf Wunsch am 27.10.2026 wieder entfernt. |
 | Menü „Menü Lüneburg“ (Slug `menue-lueneburg`) | 18 | fünf Anker-Links, in Header und Footer der Lüneburg-Seite eingebunden. Der Name beginnt bewusst mit „Me…“: WordPress nutzt bei Nav-Widgets ohne gültiges Menü (Footer-Widgets „karriere-menu“ auf allen Seiten) das alphabetisch erste Menü als Fallback, das muss „Main“ bleiben. |
 
 Zusätzlich wurde in Gravity Forms → Einstellungen → REST API der Zugriff aktiviert (nötig zum Anlegen der Formulare; kann wieder deaktiviert werden).
@@ -120,7 +120,7 @@ UTM-Parameter (utm_source … fbclid) werden im Funnel-Formular als versteckte F
 - [ ] Google Search Console → URL-Prüfung → „Indexierung beantragen“ (nur mit Google-Login möglich; nach dem Schema-Fix vom 26.10.2026 zuerst „Live-URL testen“, dann beantragen)
 - [ ] Bing: IndexNow wurde am 26.10.2026 versucht, scheitert aber ohne Schlüsseldatei im Webroot (eine Datei in `/wp-content/uploads/` deckt nur diesen Pfad ab, Antwort 422). Optionen: Bing Webmaster Tools → URL einreichen (Login nötig) oder das offizielle Plugin „IndexNow“ von Microsoft Bing installieren, das die Schlüsseldatei im Root bereitstellt und neue Seiten automatisch meldet. Google nimmt an IndexNow nicht teil.
 - [x] Rich-Results-Test: Fehler „Feld item fehlt“ (Breadcrumb-Kollision) behoben, siehe Abschnitt 4
-- [x] Interne Verlinkung: „Lüneburg“ im Hauptmenü (Aufklappmenü „Mehr“, Header und Footer aller Seiten) seit 27.10.2026; zusätzlich Links von der Lüneburg-Seite zu `/zutrittssystem/` und `/kamerasysteme/`
+- [ ] Interne Verlinkung: Der Menüpunkt „Lüneburg“ wurde auf Wunsch wieder entfernt; die Seite ist aktuell nur über die Sitemap erreichbar. Empfehlung: ein unauffälliger Textlink, z. B. im Footer („Standort Lüneburg“) oder im Standort-Abschnitt der Startseite, damit Google die Seite über die interne Verlinkung findet. Von der Lüneburg-Seite aus bestehen Links zu `/zutrittssystem/` und `/kamerasysteme/`.
 - [ ] Google Unternehmensprofil: Leistungsgebiet „Lüneburg“ ergänzen und auf `/lueneburg/` verlinken
 - [ ] PageSpeed prüfen (Hero-Video wird auf Mobil durch den separaten Mobil-Block ersetzt, wie auf der Startseite)
 
