@@ -431,7 +431,7 @@ def contact_page(title, heading, text, form_id, slug, seo_title):
 
 json.dump(contact_page('Funnel-Unterseite',
     'Bitte fülle den Fragebogen aus, damit sich unser Team bestmöglich auf deinen Termin vorbereiten kann. Im nächsten Schritt kannst du ein Datum und eine Uhrzeit für dein Gespräch auswählen.',
-    '<p>In dem gemeinsamen Gespräch schauen wir uns deine aktuelle Situation an, wie der Zutritt bei dir geregelt ist und welche konkreten Maßnahmen wir empfehlen, um auf ein digitales Schließsystem umzurüsten. Wir zeigen dir hier gern schon aktuelle Technologien und geben konkrete Erfahrungswerte mit, wie du dein Unternehmen sicher aufstellst.</p>',
+    '<p>In dem gemeinsamen Gespräch schauen wir uns deine aktuelle Situation an: wie der Zutritt bei dir geregelt ist, welche Bereiche du im Blick haben willst und welche konkreten Maßnahmen wir empfehlen – ob digitales Schließsystem, Kamerasystem oder beides. Wir zeigen dir gern schon aktuelle Technologien und geben konkrete Erfahrungswerte mit, wie du dein Unternehmen sicher aufstellst.</p>',
     FUNNEL_FORM_ID, 'anfrage-auswahl', 'Anfrage – ProVision Infra'),
     open(f'{OUT}/anfrage-auswahl.elementor.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
