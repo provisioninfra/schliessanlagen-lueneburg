@@ -72,6 +72,27 @@ Abgrenzung zu bestehenden Seiten: `/zutrittssystem/` und `/kamerasysteme/` ziele
 
 Die gemessenen Ist-Werte nach Veröffentlichung stehen in Abschnitt 6.
 
-## 6. Messwerte nach Veröffentlichung
+## 6. Messwerte nach Veröffentlichung (27.10.2026, Live-HTML ohne Cache)
 
-Wird nach dem Speichern der finalen Fassung ergänzt (Audit-Skript: Titel-/Description-Länge, H1, Wortzahl, Keyword-Vorkommen, Alt-Abdeckung, interne Links, Schema-Typen).
+| Messgröße | Wert | Bewertung |
+| --- | --- | --- |
+| Title | 60 Zeichen, beide Hauptthemen + Ort + Marke | ok |
+| Meta-Description | 158 Zeichen, mit Handlungsaufforderung | ok |
+| H1 | genau 1 („Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Lüneburg“) | ok |
+| H2 / H3 | 11 sichtbare H2 (18 im DOM inkl. Mobil-Varianten), H3 nur in Karten/Ablauf/FAQ | ok |
+| Wörter im sichtbaren Text | ca. 1.850 (ohne Cookie-Dialog) | ok für eine lokale Leistungsseite |
+| Keyword-Vorkommen | „Schließanlage(n)“ 26×, „Videoüberwachung“ 15×, „Lüneburg“ 31×, „Zutrittskontrolle“ 5×, „Bad Bevensen“ 7×, Hersteller 2–5× | natürlich verteilt, kein Stuffing |
+| Interne Links | `/zutrittssystem/`, `/kamerasysteme/`, `/anfrage-auswahl/` (3 CTAs), Footer-Links; eingehend aus dem Hauptmenü aller Seiten | ok |
+| Kontakt-Signale | 1× `tel:`, 1× `mailto:`, Adresse + Öffnungszeiten im Text und im Schema | ok |
+| Strukturierte Daten | Yoast WebPage/Breadcrumb/WebSite, LocalBusiness+Locksmith, 2× Service, FAQPage (10 Fragen), Product/AggregateRating | gültig, keine doppelten @id mehr |
+| Bilder | 26 `<img>`; beschreibende Alt-Texte für Logo, Google-Bewertung, Film-Vorschau, Karte, Partner-Logos, Kameras; dekorative Linien/Icons ohne Alt | ok |
+| Robots / Canonical / Sitemap | index,follow · Canonical auf sich selbst · in `page-sitemap.xml` | ok |
+| Mobil | eigener Mobil-Hero, Formulare und Karten umbrechen sauber (Screenshots) | ok |
+
+Prüfskript: `python3 -I tools/audit_live.py <html-datei>` (Live-HTML z. B. mit `curl -o seite.html "https://provision-infra.de/lueneburg/?a=1"` holen, der Parameter umgeht den Varnish-Cache).
+
+## 7. Änderungsprotokoll
+
+- 24.10.2026: Seite, Funnel-Seiten, Formulare, Menü angelegt und veröffentlicht.
+- 26.10.2026: Schema bereinigt (GSC-Fehler „Feld item fehlt“), Menü-Fallback korrigiert, Film-Abschnitt, Leistungsübersicht, Zielgruppen, 10 FAQ, interne Links, NAP-Block, Description mit CTA.
+- 27.10.2026: Landeseiten-Vorlagen für Formular 5/6, HQ/LQ-Weiterleitungen (Formular 2/4/6), Hauptmenü mit Aufklappmenü „Mehr“ (Lüneburg verlinkt), Alt-Texte, Video-Rahmen, Auswahlseite mit Einleitungstext für beide Themen und Button „Weiter →“.
