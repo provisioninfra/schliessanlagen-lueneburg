@@ -95,4 +95,4 @@ Prüfskript: `python3 -I tools/audit_live.py <html-datei>` (Live-HTML z. B. mit 
 
 - 24.10.2026: Seite, Funnel-Seiten, Formulare, Menü angelegt und veröffentlicht.
 - 26.10.2026: Schema bereinigt (GSC-Fehler „Feld item fehlt“), Menü-Fallback korrigiert, Film-Abschnitt, Leistungsübersicht, Zielgruppen, 10 FAQ, interne Links, NAP-Block, Description mit CTA.
-- 27.10.2026: Landeseiten-Vorlagen für Formular 5/6, HQ/LQ-Weiterleitungen (Formular 2/4/6), Hauptmenü mit Aufklappmenü „Mehr“, Alt-Texte, Video-Rahmen, Auswahlseite mit Einleitungstext für beide Themen und Button „Weiter →“. Menüpunkt „Lüneburg“ auf Wunsch wieder entfernt.
+- 27.10.2026: Landeseiten-Vorlagen für Formular 5/6, HQ/LQ-Weiterleitungen (Formular 2/4/6), Hauptmenü mit Aufklappmenü „Mehr“, Alt-Texte, Video-Rahmen, Auswahlseite mit Einleitungstext für beide Themen und Button „Weiter →“. Menüpunkt „Lüneburg“ auf Wunsch wieder entfernt. Globale Linkfarbe im Elementor-Kit auf Gelb gesetzt (vorher Theme-Rot), gilt für alle Seiten.

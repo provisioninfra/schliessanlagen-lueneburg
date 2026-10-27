@@ -17,6 +17,8 @@ Angelegte Objekte in WordPress (alle drei Seiten **veröffentlicht** am 24.10.20
 
 Zusätzlich wurde in Gravity Forms → Einstellungen → REST API der Zugriff aktiviert (nötig zum Anlegen der Formulare; kann wieder deaktiviert werden).
 
+Site-weite Änderung vom 27.10.2026: In den Elementor-Site-Einstellungen (Kit, Post 8) ist die globale Linkfarbe gesetzt (Typografie → Link: normal `#FBC91B`, Hover `#FFD75E`). Vorher galt die Theme-Standardfarbe von Hello Elementor (`#c36`, rot/pink, Hover dunkelblau), die auf dem dunklen Hintergrund schlecht lesbar war. Die Regel `.elementor-kit-8 a {color:#FBC91B}` wirkt auf allen Seiten; Widgets mit eigener Linkfarbe (Menüs, Buttons, Icon-Listen) bleiben unverändert.
+
 ## 1. Ziel und Keyword-Set
 
 Lokale Landingpage für Lüneburg und den Landkreis Lüneburg mit zwei Leistungsfeldern:
