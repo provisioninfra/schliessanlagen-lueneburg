@@ -126,6 +126,10 @@ UTM-Parameter (utm_source … fbclid) werden im Funnel-Formular als versteckte F
 - [ ] Google Unternehmensprofil: Leistungsgebiet „Lüneburg“ ergänzen und auf `/lueneburg/` verlinken
 - [ ] PageSpeed prüfen (Hero-Video wird auf Mobil durch den separaten Mobil-Block ersetzt, wie auf der Startseite)
 
+## 7b. Google-Sitelinks und Startseiten-Titel (28.10.2026)
+
+Bei der Markensuche zeigt Google unter dem Hauptergebnis automatisch gewählte Sitelinks (zuletzt „Schließanlagen …“ = Lüneburg-Seite, „Videoüberwachung für …“ = Kamera-Seite, „Karriere“). Sitelinks lassen sich weder in WordPress noch in der Search Console festlegen oder auf die Startseite umbiegen. Umgesetzt wurde deshalb: SEO-Titel der Startseite von „Digitales Zutrittssystem - ProVision Infra“ auf **„Schließanlagen & digitale Zutrittssysteme | ProVision Infra“** geändert, damit „Schließanlagen“ direkt am Hauptergebnis erscheint; der Menü-Link auf die Lüneburg-Seite ist entfernt, wodurch sie als Sitelink an Gewicht verliert. Offen beim Betreiber: im Google-Unternehmensprofil unter „Dienste“ den Eintrag „Schließanlagen“ anlegen.
+
 ## 8. Später erweiterbar
 
 - Weitere Stadt-Seiten nach demselben Muster (`tools/build_lueneburg.py` kopieren, Texte/Orte austauschen); der Funnel ist für alle Unterseiten gedacht.
