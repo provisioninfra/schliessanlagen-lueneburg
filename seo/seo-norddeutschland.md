@@ -52,11 +52,34 @@ Einsatzgebiet in Texten und Schema: Hamburg, Lüneburg, Winsen (Luhe), Buchholz 
 ### Technik / seitenübergreifend
 - `/opt-2/` und `/elementor-3524/` auf noindex (Seiten bleiben erreichbar, fallen aus der Sitemap).
 - WordPress-Website-Titel „ProVision“ → „ProVision Infra“ (Marke in Open Graph, Schema „WebSite“ und Standardtiteln), Untertitel mit Keywords und Region.
-- Alt-Texte: SimonsVoss-Beschlag mit Digitalzylinder, elektronischer Türbeschlag, Support-Ansprechpartner, Logos, Google-Bewertung. Rein dekorative Linien, Verläufe und Icons bleiben bewusst ohne Alt-Text.
+- Alt-Texte (Mediathek, wirken auf allen Seiten): SimonsVoss-Beschlag mit Digitalzylinder (1220), elektronischer Türbeschlag (3364), Support-Ansprechpartner (3649), Logos (309, 3317, 3351), Google-Bewertung (3319). Rein dekorative Linien, Verläufe und Icons bleiben bewusst ohne Alt-Text.
+- Nebenbei behoben: Der bisherige WordPress-Untertitel war doppelt kodiert („&amp;amp;“) und erschien so im Schema „WebSite“.
 
 Werkzeuge: `tools/seo_norddeutschland/` (Patches arbeiten immer auf dem frisch geladenen Live-Stand und brechen ab, wenn ein Text zwischenzeitlich geändert wurde).
 
-## 4. Empfehlungen (nicht automatisch umsetzbar)
+## 4. Messwerte nach der Umsetzung (29.10.2026, Live-HTML ohne Cache)
+
+| Seite | Titel | Beschreibung | Robots | H1 | Strukturierte Daten |
+| --- | --- | --- | --- | --- | --- |
+| `/` | 59 | 157 | index | 1 | LocalBusiness+Locksmith, Service, FAQPage (10 Fragen), Yoast, ProvenExpert |
+| `/zutrittssystem/` | 62 | 156 | index | 1 | LocalBusiness+Locksmith, Service, FAQPage (6 Fragen), Yoast, ProvenExpert |
+| `/kamerasysteme/` | 60 | 155 | index | 1 | LocalBusiness, Service, FAQPage (11 Fragen), Yoast, ProvenExpert |
+| `/lueneburg/` | 60 | 158 | index | 1 | LocalBusiness+Locksmith, 2× Service, FAQPage, Yoast, ProvenExpert |
+| `/uelzen/` | 58 | 153 | index | 1 | LocalBusiness+Locksmith, 2× Service, FAQPage, Yoast, ProvenExpert |
+| `/opt-2/`, `/elementor-3524/` | – | – | noindex | – | nicht mehr in der Sitemap |
+
+Sitemap danach: `/`, `/karriere/`, `/zutrittssystem/`, `/kamerasysteme/`, `/lueneburg/`, `/uelzen/`. Markenname in Open Graph und Schema „WebSite“: „ProVision Infra“.
+
+Keyword-Vorkommen vorher → nachher (sichtbarer Text):
+
+| Seite | „Schließanlage“ | „elektronische Schließanlage“ | „digitale Schließanlage“ | „Hamburg“ | „Hannover“ | Wörter |
+| --- | --- | --- | --- | --- | --- | --- |
+| `/` | 3 → 14 | 0 → 2 | 0 → 4 | 2 → 6 | 1 → 5 | 2.202 → 2.376 |
+| `/zutrittssystem/` | 0 → 13 | 0 → 7 | 0 → 1 | 0 → 5 | 0 → 5 | 568 → 913 |
+
+Hinweis zur Prüfung: In dieser Arbeitsumgebung brechen einzelne Abrufe sporadisch ab (leere Antwort, HTTP/2-Fehler). Screenshots und Funktionsprüfungen werden deshalb nur gewertet, wenn alle CSS- und JS-Dateien der Website vollständig geladen wurden.
+
+## 5. Empfehlungen (nicht automatisch umsetzbar)
 
 1. **Weitere Städteseiten** nach dem Muster Lüneburg/Uelzen für Hamburg, Hannover, Celle, Winsen/Buchholz und Soltau. Ohne lokale Landingpage rankt eine Firma aus Bad Bevensen für „Schließanlage Hamburg“ kaum organisch. Jede Seite braucht eigene Texte (keine Kopien mit ausgetauschtem Ortsnamen).
 2. **Google-Unternehmensprofil**: Einzugsgebiet auf die Achse Hamburg–Hannover setzen (bis zu 20 Orte), Dienste „Schließanlagen“, „Elektronische Schließanlage“, „Zutrittskontrolle“, „Videoüberwachung“ anlegen, regelmäßig Beiträge und Fotos von Projekten, Kunden um Bewertungen mit Ortsnennung bitten.
