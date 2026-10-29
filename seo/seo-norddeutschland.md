@@ -86,3 +86,21 @@ Hinweis zur Prüfung: In dieser Arbeitsumgebung brechen einzelne Abrufe sporadis
 3. **Search Console**: Für `/`, `/zutrittssystem/` und `/kamerasysteme/` „Live-URL testen“ und „Indexierung beantragen“; nach 4–6 Wochen Leistungsbericht nach Suchanfragen mit Ortsnamen filtern.
 4. **Verzeichnisse und Backlinks**: einheitliche Firmendaten (Name, Adresse, Telefon) bei IHK, Gelbe Seiten, Das Örtliche, 11880, Bing Places, Apple Business Connect; Partnerverzeichnisse von EVVA und SimonsVoss; Referenzen bei Kunden.
 5. **Interne Links zu Städteseiten**: Der Menüpunkt Lüneburg wurde auf Wunsch entfernt. Ein dezenter Textlink (z. B. im Footer „Standorte: Lüneburg, Uelzen“) würde beiden Seiten helfen; das ist eine Geschmacksentscheidung und wurde deshalb nicht umgesetzt.
+
+## 6. Kundenstimme Vincent Oswald (29.10.2026)
+
+Auf allen Seiten mit Kundenstimmen-Karussell (Startseite, Kamerasysteme, Lüneburg, Uelzen; die Zutrittssystem- und Karriere-Seite haben keins) ist ein vierter Slide ergänzt:
+
+> "Super Service und sehr gutes Produkt! Obwohl wir ein vergleichsweise sehr kleiner Kunde sind, wurden wir behandelt wie ein großer. Absolute Empfehlung und gerne wieder!"
+> **Vincent Oswald**, Inhaber / Geschäftsführer Studio Lüüd
+
+Umsetzung: exakte Kopie des dritten Slides (identisch zum zweiten), nur Zitat, Name und Funktion ausgetauscht; alle Design-, Abstands- und Animationswerte unverändert (`tools/seo_norddeutschland/patch_testimonial.py`).
+
+Ablauf je Seite (`testimonial_run.js`): Vorschau als Autosave speichern, Funktionsprüfung in der Vorschau, erst danach veröffentlichen; anschließend Cache geleert und Live-Prüfung (`carousel_check.js`). Geprüft jeweils auf Desktop (1440 px) und Handy (390 px):
+
+- 4 Slides und 4 Navigationspunkte,
+- Formatierung des neuen Slides identisch mit dem bestehenden (Schriftart, -größe, -farbe, Zeilenhöhe, Karte, Sternegrafik, Anführungszeichen-Grafik),
+- Weiter-Pfeil durchläuft alle vier Kundenstimmen,
+- Hervorhebung (gelber Rahmen, volle Deckkraft) greift auch beim neuen Slide.
+
+Ergebnis: Vorschau und Live-Prüfung auf allen vier Seiten bestanden. Screenshots: `seo/screenshots/kundenstimmen-vincent-*.png`.
