@@ -20,7 +20,10 @@ def build(city, idx):
     d = copy.deepcopy({'elements': tpl['elements'], 'settings': tpl['settings']})
     ix = {e['id']: e for r in d['elements'] for e in walk(r)}
     for e in ix.values(): e.pop('htmlCache', None)  # Editor-Vorschau-HTML der Vorlage nicht mitschicken
-    name, kurz, V = city['name'], city['kurz'], idx % 3
+    name, kurz = city['name'], city['kurz']
+    rng = random.Random('variante-' + city['key']); vs = [rng.randrange(3) for _ in range(60)]
+    vb = lambda j: vs[j]  # Variante je Baustein per seedbarem Zufall: zwei Seiten teilen im Mittel nur ein Drittel der Bausteine
+    V = vb(0)
     fmt = lambda s: s.format(name=kurz, kreis_in=city['kreis_in'], zeit=city['zeit'])
     changed = set()
     def field(eid): return 'title' if ix[eid].get('widgetType') == 'heading' else 'editor'
@@ -58,11 +61,11 @@ def build(city, idx):
     m = re.search(r'<p><strong>ProVision Infra GmbH</strong>[\s\S]*$', old); assert m and 'Adendorf' in old
     links = ', '.join(f'<a href="{u}">{n}</a>' for u, n in ALL_CITY_LINKS if u != f"/{city['key']}/")
     p3 = f'<p>Weitere Einsatzgebiete zwischen Hamburg und Hannover: {links}. Mehr zu <a href="/">digitalen Schließanlagen</a> findest du auf unserer Startseite.</p>'
-    setf('5c65e03', 'editor', f"<p>{city['standort_p1']}</p>" + fmt(GENERIC['standort_p2'][V]) + p3 + m.group(0))
+    setf('5c65e03', 'editor', f"<p>{city['standort_p1']}</p>" + fmt(GENERIC['standort_p2'][vb(1)]) + p3 + m.group(0))
     rep('7983242', 'title', '<b>Lüneburg</b>', f'<b>{name}</b>'); rep('45eaf1f', 'title', '<b>Lüneburg</b>', f'<b>{name}</b>')
-    for eid, variants in GENERIC.items():
+    for j, (eid, variants) in enumerate(GENERIC.items()):
         if eid == 'standort_p2': continue
-        val = fmt(variants[V]); setf(eid, field(eid), val)
+        val = fmt(variants[vb(j + 2)]); setf(eid, field(eid), val)
         if eid in MOBILE_TWIN: setf(MOBILE_TWIN[eid], field(MOBILE_TWIN[eid]), val)
     # mobile Timeline: Auszüge entsprechen den Desktop-Texten der Vorlage
     tl = ix['756a14f']['settings']['eael_coustom_content_posts']; hit = 0
@@ -76,7 +79,7 @@ def build(city, idx):
     def item(q, a):
         it = copy.deepcopy(proto); it['_id'] = '%07x' % random.randrange(16 ** 7)
         it['eael_adv_accordion_tab_title'] = q; it['eael_adv_accordion_tab_content'] = a; return it
-    g = lambda k: (fmt(FAQ_GENERIC[k][V][0]), fmt(FAQ_GENERIC[k][V][1]))
+    g = lambda k: (fmt(FAQ_GENERIC[k][vb(list(FAQ_GENERIC).index(k) + 7)][0]), fmt(FAQ_GENERIC[k][vb(list(FAQ_GENERIC).index(k) + 7)][1]))
     faq = [(f'Was kostet eine Schließanlage in {name}?', city['faq_kosten']), g('mech'), g('umruesten'), city['faq_anfahrt'],
            city['faq_kamera'], g('verbinden'), g('hersteller'), g('danach'), g('dauer'), city['faq_extra']]
     ix['ed852c3']['settings']['eael_adv_accordion_tab'] = [item(q, a) for q, a in faq]
@@ -98,10 +101,10 @@ def build(city, idx):
     if rest: print('   Fundstellen:', where)
     seo = {'post_title': d['settings']['post_title'], 'title': city['title'], 'description': city['desc'], 'focuskw': f'Schließanlagen {kurz}', 'slug': city['key']}
     assert len(seo['title']) <= 60 and len(seo['description']) <= 160, (len(seo['title']), len(seo['description']))
-    out = {'key': city['key'], 'variant': V, 'elements': d['elements'], 'settings': d['settings'], 'seo': seo}
+    out = {'key': city['key'], 'variant': 'mixed', 'elements': d['elements'], 'settings': d['settings'], 'seo': seo}
     json.dump(out, open(f"{OUT}/{city['key']}.elementor.json", 'w', encoding='utf-8'), ensure_ascii=False)
     words = len(re.findall(r'[A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß\-]+', re.sub('<[^>]+>', ' ', ' '.join(str(e['settings'].get(k, '')) for e in ix.values() for k in ('title', 'editor')))))
-    print(f"{city['key']:15} V={V} Felder={len(changed)} FAQ={len(faq)} Wörter≈{words} Reste={rest or 'keine'} title={len(seo['title'])} desc={len(seo['description'])}")
+    print(f"{city['key']:15} V=mix Felder={len(changed)} FAQ={len(faq)} Wörter≈{words} Reste={rest or 'keine'} title={len(seo['title'])} desc={len(seo['description'])}")
 
 for i, c in enumerate(CITIES):
     if only and c['key'] not in only: continue
