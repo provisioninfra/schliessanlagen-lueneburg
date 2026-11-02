@@ -1,0 +1,665 @@
+{
+ "winsen-luhe": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Winsen (Luhe) | ProVision",
+  "desc_len": 148,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Winsen (Luhe)"
+  ],
+  "h2_n": 16,
+  "words": 2181,
+  "kurz_count": 32,
+  "lueneburg_count": 3,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 519
+ },
+ "celle": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Celle | ProVision Infra",
+  "desc_len": 151,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Celle"
+  ],
+  "h2_n": 16,
+  "words": 2160,
+  "kurz_count": 36,
+  "lueneburg_count": 2,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "bienenbuettel": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Bienenbüttel | ProVision",
+  "desc_len": 158,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Bienenbüttel"
+  ],
+  "h2_n": 16,
+  "words": 2104,
+  "kurz_count": 31,
+  "lueneburg_count": 2,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "bad-bevensen": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Bad Bevensen | ProVision",
+  "desc_len": 157,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Bad Bevensen"
+  ],
+  "h2_n": 16,
+  "words": 2153,
+  "kurz_count": 34,
+  "lueneburg_count": 1,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 519
+ },
+ "ebstorf": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Ebstorf | ProVision Infra",
+  "desc_len": 146,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Ebstorf"
+  ],
+  "h2_n": 16,
+  "words": 2098,
+  "kurz_count": 33,
+  "lueneburg_count": 1,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "dannenberg": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Dannenberg | ProVision",
+  "desc_len": 157,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Dannenberg (Elbe)"
+  ],
+  "h2_n": 16,
+  "words": 2104,
+  "kurz_count": 36,
+  "lueneburg_count": 1,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "luechow": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Lüchow | ProVision Infra",
+  "desc_len": 150,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Lüchow (Wendland)"
+  ],
+  "h2_n": 16,
+  "words": 2132,
+  "kurz_count": 35,
+  "lueneburg_count": 1,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "hitzacker": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Hitzacker | ProVision",
+  "desc_len": 153,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Hitzacker (Elbe)"
+  ],
+  "h2_n": 16,
+  "words": 2063,
+  "kurz_count": 30,
+  "lueneburg_count": 1,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "bleckede": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Bleckede | ProVision Infra",
+  "desc_len": 158,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Bleckede"
+  ],
+  "h2_n": 16,
+  "words": 2097,
+  "kurz_count": 30,
+  "lueneburg_count": 2,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "bad-bodenteich": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Bad Bodenteich | ProVision",
+  "desc_len": 153,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Bad Bodenteich"
+  ],
+  "h2_n": 16,
+  "words": 2154,
+  "kurz_count": 28,
+  "lueneburg_count": 1,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 519
+ },
+ "wieren": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Wieren | ProVision Infra",
+  "desc_len": 158,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Wieren"
+  ],
+  "h2_n": 16,
+  "words": 2122,
+  "kurz_count": 29,
+  "lueneburg_count": 1,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "wittingen": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Wittingen | ProVision",
+  "desc_len": 156,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Wittingen"
+  ],
+  "h2_n": 16,
+  "words": 2121,
+  "kurz_count": 30,
+  "lueneburg_count": 2,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ },
+ "gifhorn": {
+  "code": "200",
+  "title": "Schließanlagen & Videoüberwachung Gifhorn | ProVision Infra",
+  "desc_len": 158,
+  "h1": [
+   "Mechanische & elektronische Schließanlagen sowie Videoüberwachung in Gifhorn"
+  ],
+  "h2_n": 16,
+  "words": 2100,
+  "kurz_count": 35,
+  "lueneburg_count": 2,
+  "schema": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Product",
+   "['LocalBusiness', 'Locksmith']",
+   "Service",
+   "Service",
+   "FAQPage"
+  ],
+  "faq_n": 10,
+  "img_n": 26,
+  "missing_city_links": [],
+  "videos": [
+   "startseite-hero-tuer-desktop-2160.mp4",
+   "startseite-hero-tuer-handy-1440.mp4"
+  ],
+  "checks": {
+   "status200": true,
+   "title_ok": true,
+   "desc_ok": true,
+   "index": true,
+   "canonical_ok": true,
+   "h1_once": true,
+   "h1_city": true,
+   "og_title_ok": true,
+   "schema_valid": true,
+   "schema_types": true,
+   "faq10": true,
+   "city_links_all": true,
+   "cta_funnel": true,
+   "service_links": true,
+   "videos2": true,
+   "no_lueneburg_leftover": true,
+   "tel_link": true,
+   "city_mentions_ok": true
+  },
+  "size_kb": 518
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "Winsen (Luhe)": {
+  "lat": 53.3636474,
+  "lon": 10.2059206,
+  "display": "Winsen (Luhe), Landkreis Harburg, Niedersachsen, 21423, Deutschland",
+  "km": 53.6,
+  "min": 48
+ },
+ "Celle": {
+  "lat": 52.624056,
+  "lon": 10.081052,
+  "display": "Celle, Landkreis Celle, Niedersachsen, Deutschland",
+  "km": 70.3,
+  "min": 64
+ },
+ "Bienenbüttel": {
+  "lat": 53.1433724,
+  "lon": 10.4871514,
+  "display": "Bienenbüttel, Landkreis Uelzen, Niedersachsen, 29553, Deutschland",
+  "km": 13.5,
+  "min": 14
+ },
+ "Bad Bevensen": {
+  "lat": 53.0800537,
+  "lon": 10.5810572,
+  "display": "Bad Bevensen, Samtgemeinde Bevensen-Ebstorf, Landkreis Uelzen, Niedersachsen, 29549, Deuts",
+  "km": 1.3,
+  "min": 3
+ },
+ "Ebstorf": {
+  "lat": 53.0273634,
+  "lon": 10.4178494,
+  "display": "Ebstorf, Samtgemeinde Bevensen-Ebstorf, Landkreis Uelzen, Niedersachsen, 29574, Deutschlan",
+  "km": 14.9,
+  "min": 16
+ },
+ "Dannenberg (Elbe)": {
+  "lat": 53.0989099,
+  "lon": 11.0960722,
+  "display": "Dannenberg (Elbe), Samtgemeinde Elbtalaue, Landkreis Lüchow-Dannenberg, Niedersachsen, 294",
+  "km": 39.1,
+  "min": 36
+ },
+ "Lüchow (Wendland)": {
+  "lat": 52.9658187,
+  "lon": 11.1601127,
+  "display": "AOK, 5, Theodor-Körner-Straße, Lüchow, Samtgemeinde Lüchow (Wendland), Landkreis Lüchow-Da",
+  "km": 45.4,
+  "min": 43
+ },
+ "Hitzacker (Elbe)": {
+  "lat": 53.1512116,
+  "lon": 11.0440938,
+  "display": "Hitzacker (Elbe), Samtgemeinde Elbtalaue, Landkreis Lüchow-Dannenberg, Niedersachsen, 2945",
+  "km": 35.5,
+  "min": 33
+ },
+ "Bleckede": {
+  "lat": 53.2933058,
+  "lon": 10.7299955,
+  "display": "Bleckede, Landkreis Lüneburg, Niedersachsen, 21354, Deutschland",
+  "km": 29.8,
+  "min": 29
+ },
+ "Bad Bodenteich": {
+  "lat": 52.833324,
+  "lon": 10.681325,
+  "display": "Bad Bodenteich, Samtgemeinde Aue, Landkreis Uelzen, Niedersachsen, 29389, Deutschland",
+  "km": 33.2,
+  "min": 32
+ },
+ "Wieren": {
+  "lat": 52.888757,
+  "lon": 10.656827,
+  "display": "Wieren, Drohe, Wrestedt, Samtgemeinde Aue, Landkreis Uelzen, Niedersachsen, Deutschland",
+  "km": 26.5,
+  "min": 25
+ },
+ "Wittingen": {
+  "lat": 52.7289399,
+  "lon": 10.735743,
+  "display": "Wittingen, Landkreis Gifhorn, Niedersachsen, Deutschland",
+  "km": 46.3,
+  "min": 45
+ },
+ "Gifhorn": {
+  "lat": 52.5781407,
+  "lon": 10.6612811,
+  "display": "Landkreis Gifhorn, Niedersachsen, Deutschland",
+  "km": 66.4,
+  "min": 74
+ },
+ "Lüneburg": {
+  "lat": 53.248706,
+  "lon": 10.407855,
+  "display": "Lüneburg, Landkreis Lüneburg, Niedersachsen, Deutschland",
+  "km": 29.2,
+  "min": 34
+ },
+ "Uelzen": {
+  "lat": 52.9840746,
+  "lon": 10.5385869,
+  "display": "Landkreis Uelzen, Niedersachsen, Deutschland",
+  "km": 16.7,
+  "min": 19
+ }
+}

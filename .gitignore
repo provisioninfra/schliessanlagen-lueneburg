@@ -3,3 +3,4 @@
 .env
 state.json
 wpstate.json
+__pycache__/

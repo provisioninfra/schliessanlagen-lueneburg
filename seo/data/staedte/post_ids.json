@@ -1,0 +1,47 @@
+{
+ "staedte": {
+  "bad-bevensen": 4735,
+  "bad-bodenteich": 4739,
+  "bienenbuettel": 4743,
+  "bleckede": 4747,
+  "celle": 4751,
+  "dannenberg": 4755,
+  "ebstorf": 4759,
+  "gifhorn": 4763,
+  "hitzacker": 4767,
+  "luechow": 4771,
+  "wieren": 4775,
+  "winsen-luhe": 4779,
+  "wittingen": 4783
+ },
+ "done": {
+  "bad-bevensen": "2026-11-02T19:11:31.796Z",
+  "bad-bodenteich": "2026-11-02T19:33:02.104Z",
+  "bienenbuettel": "2026-11-02T19:37:39.149Z",
+  "bleckede": "2026-11-02T19:42:17.305Z",
+  "celle": "2026-11-02T19:46:53.546Z",
+  "dannenberg": "2026-11-02T19:51:29.855Z",
+  "ebstorf": "2026-11-02T19:56:04.359Z",
+  "gifhorn": "2026-11-02T20:00:41.685Z",
+  "hitzacker": "2026-11-02T20:05:15.935Z",
+  "luechow": "2026-11-02T20:09:48.606Z",
+  "wieren": "2026-11-02T20:14:23.075Z",
+  "winsen-luhe": "2026-11-02T20:18:56.002Z",
+  "wittingen": "2026-11-02T20:23:29.541Z"
+ },
+ "resaved": {
+  "bad-bevensen": "2026-11-02T20:35:30.437Z",
+  "bad-bodenteich": "2026-11-02T20:36:41.705Z",
+  "bienenbuettel": "2026-11-02T20:37:52.377Z",
+  "bleckede": "2026-11-02T20:39:04.005Z",
+  "celle": "2026-11-02T20:40:21.779Z",
+  "dannenberg": "2026-11-02T20:41:32.970Z",
+  "ebstorf": "2026-11-02T20:42:43.471Z",
+  "gifhorn": "2026-11-02T20:43:55.185Z",
+  "hitzacker": "2026-11-02T20:45:07.438Z",
+  "luechow": "2026-11-02T20:46:19.428Z",
+  "wieren": "2026-11-02T20:47:29.766Z",
+  "winsen-luhe": "2026-11-02T20:48:41.055Z",
+  "wittingen": "2026-11-02T20:49:52.353Z"
+ }
+}
