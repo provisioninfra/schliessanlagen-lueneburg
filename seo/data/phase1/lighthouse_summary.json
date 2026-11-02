@@ -1,0 +1,735 @@
+{
+ "home_desktop": {
+  "scores": {
+   "performance": 31,
+   "accessibility": 92,
+   "best-practices": 74,
+   "seo": 100
+  },
+  "metrics": {
+   "FCP_s": 1.86,
+   "LCP_s": 11.38,
+   "TBT_ms": 900,
+   "CLS": 0.008,
+   "SI_s": 4.65,
+   "TTI_s": 11.73,
+   "TTFB_ms": 215,
+   "bytes_MB": 38.06,
+   "requests": 221,
+   "DOM_nodes": 2144
+  },
+  "opportunities": [
+   [
+    "render-blocking-resources",
+    168,
+    0
+   ],
+   [
+    "uses-rel-preconnect",
+    166,
+    0
+   ],
+   [
+    "server-response-time",
+    115,
+    0
+   ]
+  ],
+  "seo_fail": [],
+  "a11y_fail": [
+   [
+    "aria-allowed-attr",
+    "`[aria-*]` attributes do not match their roles",
+    1
+   ],
+   [
+    "aria-allowed-role",
+    "Uses ARIA roles on incompatible elements",
+    1
+   ],
+   [
+    "heading-order",
+    "Heading elements are not in a sequentially-descending order",
+    2
+   ]
+  ],
+  "bp_fail": [
+   [
+    "third-party-cookies",
+    "Uses third-party cookies",
+    3
+   ],
+   [
+    "errors-in-console",
+    "Browser errors were logged to the console",
+    2
+   ],
+   [
+    "inspector-issues",
+    "Issues were logged in the `Issues` panel in Chrome Devtools",
+    1
+   ]
+  ],
+  "third_party": [
+   [
+    "Google Tag Manager",
+    323,
+    196
+   ],
+   [
+    "Facebook",
+    210,
+    189
+   ],
+   [
+    "Macropod BugHerd",
+    76,
+    0
+   ],
+   [
+    "Amazon Web Services",
+    56,
+    0
+   ],
+   [
+    "provenexpert.com",
+    29,
+    0
+   ],
+   [
+    "Google/Doubleclick Ads",
+    4,
+    0
+   ],
+   [
+    "Other Google APIs/SDKs",
+    1,
+    0
+   ]
+  ],
+  "lcp_element": "<video class=\"elementor-background-video-hosted\" role=\"presentation\" autoplay=\"\" muted=\"\" playsinline=\"\" src=\"https://provision-infra.de/wp-content/uploads/2026",
+  "lcp_phases": {
+   "TTFB": 700,
+   "Load Delay": 0,
+   "Load Time": 0,
+   "Render Delay": 10678
+  },
+  "css_count": 3,
+  "js_count": 8,
+  "render_blocking": [
+   [
+    "post-31.css?ver=1793314482",
+    247
+   ]
+  ],
+  "modern_images": [
+   [
+    "DkAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJ…",
+    617
+   ],
+   [
+    "Untitled-design-1.png",
+    545
+   ],
+   [
+    "Ellipse-3.png",
+    208
+   ],
+   [
+    "Ellipse-4.png",
+    90
+   ],
+   [
+    "2.png",
+    30
+   ]
+  ]
+ },
+ "home_mobile": {
+  "scores": {
+   "performance": 41,
+   "accessibility": 98,
+   "best-practices": 75,
+   "seo": 100
+  },
+  "metrics": {
+   "FCP_s": 3.73,
+   "LCP_s": 4.15,
+   "TBT_ms": 14330,
+   "CLS": 0.005,
+   "SI_s": 8.51,
+   "TTI_s": 58.01,
+   "TTFB_ms": 213,
+   "bytes_MB": 38.05,
+   "requests": 220,
+   "DOM_nodes": 2048
+  },
+  "opportunities": [
+   [
+    "render-blocking-resources",
+    583,
+    0
+   ],
+   [
+    "unused-css-rules",
+    210,
+    40
+   ],
+   [
+    "server-response-time",
+    113,
+    0
+   ]
+  ],
+  "seo_fail": [],
+  "a11y_fail": [
+   [
+    "aria-allowed-role",
+    "Uses ARIA roles on incompatible elements",
+    1
+   ],
+   [
+    "heading-order",
+    "Heading elements are not in a sequentially-descending order",
+    1
+   ]
+  ],
+  "bp_fail": [
+   [
+    "third-party-cookies",
+    "Uses third-party cookies",
+    3
+   ],
+   [
+    "errors-in-console",
+    "Browser errors were logged to the console",
+    2
+   ],
+   [
+    "inspector-issues",
+    "Issues were logged in the `Issues` panel in Chrome Devtools",
+    1
+   ]
+  ],
+  "third_party": [
+   [
+    "Google Tag Manager",
+    323,
+    1724
+   ],
+   [
+    "Facebook",
+    210,
+    1381
+   ],
+   [
+    "Macropod BugHerd",
+    76,
+    111
+   ],
+   [
+    "Amazon Web Services",
+    56,
+    0
+   ],
+   [
+    "provenexpert.com",
+    18,
+    0
+   ],
+   [
+    "Google/Doubleclick Ads",
+    4,
+    0
+   ],
+   [
+    "Other Google APIs/SDKs",
+    1,
+    0
+   ]
+  ],
+  "lcp_element": "<p class=\"elementor-heading-title elementor-size-default\">",
+  "lcp_phases": {
+   "TTFB": 710,
+   "Load Delay": 0,
+   "Load Time": 0,
+   "Render Delay": 3439
+  },
+  "css_count": 3,
+  "js_count": 8,
+  "render_blocking": [
+   [
+    "jquery.min.js?ver=3.7.1",
+    321
+   ],
+   [
+    "post-31.css?ver=1793314482",
+    641
+   ],
+   [
+    "custom-frontend.min.css?ver=1793092920",
+    321
+   ]
+  ],
+  "modern_images": [
+   [
+    "DkAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJ…",
+    617
+   ],
+   [
+    "Untitled-design-1.png",
+    545
+   ],
+   [
+    "Ellipse-3.png",
+    208
+   ],
+   [
+    "Ellipse-4.png",
+    90
+   ],
+   [
+    "png;base64,iVBORw0KGgoAAAANSUhEUgAAAkYAAAG8CA",
+    62
+   ],
+   [
+    "Frame-2147224855.png",
+    47
+   ]
+  ]
+ },
+ "kamera_mobile": {
+  "scores": {
+   "performance": 44,
+   "accessibility": 99,
+   "best-practices": 75,
+   "seo": 100
+  },
+  "metrics": {
+   "FCP_s": 2.62,
+   "LCP_s": 5.76,
+   "TBT_ms": 2168,
+   "CLS": 0.046,
+   "SI_s": 4.67,
+   "TTI_s": 16.34,
+   "TTFB_ms": 213,
+   "bytes_MB": 3.1,
+   "requests": 159,
+   "DOM_nodes": 1612
+  },
+  "opportunities": [
+   [
+    "render-blocking-resources",
+    491,
+    0
+   ],
+   [
+    "unused-javascript",
+    220,
+    316
+   ],
+   [
+    "server-response-time",
+    113,
+    0
+   ]
+  ],
+  "seo_fail": [],
+  "a11y_fail": [
+   [
+    "aria-allowed-role",
+    "Uses ARIA roles on incompatible elements",
+    1
+   ]
+  ],
+  "bp_fail": [
+   [
+    "third-party-cookies",
+    "Uses third-party cookies",
+    3
+   ],
+   [
+    "errors-in-console",
+    "Browser errors were logged to the console",
+    2
+   ],
+   [
+    "inspector-issues",
+    "Issues were logged in the `Issues` panel in Chrome Devtools",
+    1
+   ]
+  ],
+  "third_party": [
+   [
+    "Google Tag Manager",
+    323,
+    1005
+   ],
+   [
+    "Facebook",
+    210,
+    684
+   ],
+   [
+    "Macropod BugHerd",
+    76,
+    29
+   ],
+   [
+    "Amazon Web Services",
+    56,
+    0
+   ],
+   [
+    "provenexpert.com",
+    18,
+    0
+   ],
+   [
+    "Google/Doubleclick Ads",
+    4,
+    0
+   ],
+   [
+    "Other Google APIs/SDKs",
+    1,
+    0
+   ]
+  ],
+  "lcp_element": "<div class=\"elementor-element elementor-element-d135e80 e-con-full shadeup elementor-h…\" data-id=\"d135e80\" data-element_type=\"container\" data-e-type=\"container\"",
+  "lcp_phases": {
+   "TTFB": 666,
+   "Load Delay": 1632,
+   "Load Time": 937,
+   "Render Delay": 2521
+  },
+  "css_count": 3,
+  "js_count": 8,
+  "render_blocking": [
+   [
+    "jquery-migrate.min.js?ver=3.4.1",
+    221
+   ],
+   [
+    "post-4313.css?ver=1793314890",
+    221
+   ],
+   [
+    "custom-pro-widget-nav-menu.min.css?ver=1793092920",
+    221
+   ]
+  ],
+  "modern_images": [
+   [
+    "Ellipse-3.png",
+    208
+   ],
+   [
+    "Ellipse-4.png",
+    90
+   ],
+   [
+    "Frame-2147224855.png",
+    47
+   ],
+   [
+    "1.png",
+    30
+   ],
+   [
+    "png;base64,iVBORw0KGgoAAAANSUhEUgAAAPEAAADxCA",
+    28
+   ],
+   [
+    "widget_landscape_300_de_0.png",
+    10
+   ]
+  ]
+ },
+ "lueneburg_mobile": {
+  "scores": {
+   "performance": 50,
+   "accessibility": 99,
+   "best-practices": 75,
+   "seo": 100
+  },
+  "metrics": {
+   "FCP_s": 2.85,
+   "LCP_s": 3.58,
+   "TBT_ms": 4588,
+   "CLS": 0.033,
+   "SI_s": 6.08,
+   "TTI_s": 19.22,
+   "TTFB_ms": 213,
+   "bytes_MB": 30.99,
+   "requests": 162,
+   "DOM_nodes": 1581
+  },
+  "opportunities": [
+   [
+    "render-blocking-resources",
+    252,
+    0
+   ],
+   [
+    "server-response-time",
+    113,
+    0
+   ]
+  ],
+  "seo_fail": [],
+  "a11y_fail": [
+   [
+    "aria-allowed-role",
+    "Uses ARIA roles on incompatible elements",
+    1
+   ]
+  ],
+  "bp_fail": [
+   [
+    "third-party-cookies",
+    "Uses third-party cookies",
+    3
+   ],
+   [
+    "errors-in-console",
+    "Browser errors were logged to the console",
+    2
+   ],
+   [
+    "inspector-issues",
+    "Issues were logged in the `Issues` panel in Chrome Devtools",
+    1
+   ]
+  ],
+  "third_party": [
+   [
+    "Google Tag Manager",
+    323,
+    1711
+   ],
+   [
+    "Facebook",
+    211,
+    1360
+   ],
+   [
+    "Macropod BugHerd",
+    76,
+    73
+   ],
+   [
+    "Amazon Web Services",
+    56,
+    8
+   ],
+   [
+    "provenexpert.com",
+    18,
+    0
+   ],
+   [
+    "Google/Doubleclick Ads",
+    4,
+    0
+   ],
+   [
+    "Other Google APIs/SDKs",
+    1,
+    0
+   ]
+  ],
+  "lcp_element": "<p class=\"elementor-heading-title elementor-size-default\">",
+  "lcp_phases": {
+   "TTFB": 780,
+   "Load Delay": 0,
+   "Load Time": 0,
+   "Render Delay": 2798
+  },
+  "css_count": 3,
+  "js_count": 8,
+  "render_blocking": [
+   [
+    "poppins.css?ver=1781595259",
+    306
+   ],
+   [
+    "fadeIn.min.css?ver=4.3.5",
+    306
+   ]
+  ],
+  "modern_images": [
+   [
+    "Untitled-design-1.png",
+    545
+   ],
+   [
+    "Ellipse-3.png",
+    208
+   ],
+   [
+    "Ellipse-4.png",
+    90
+   ],
+   [
+    "1.png",
+    30
+   ]
+  ]
+ },
+ "zutritt_mobile": {
+  "scores": {
+   "performance": 25,
+   "accessibility": 98,
+   "best-practices": 75,
+   "seo": 100
+  },
+  "metrics": {
+   "FCP_s": 3.12,
+   "LCP_s": 13.26,
+   "TBT_ms": 4567,
+   "CLS": 0.228,
+   "SI_s": 4.81,
+   "TTI_s": 41.75,
+   "TTFB_ms": 220,
+   "bytes_MB": 17.1,
+   "requests": 146,
+   "DOM_nodes": 1487
+  },
+  "opportunities": [
+   [
+    "unused-javascript",
+    1380,
+    294
+   ],
+   [
+    "render-blocking-resources",
+    639,
+    0
+   ],
+   [
+    "unused-css-rules",
+    410,
+    37
+   ],
+   [
+    "uses-rel-preconnect",
+    394,
+    0
+   ],
+   [
+    "server-response-time",
+    120,
+    0
+   ]
+  ],
+  "seo_fail": [],
+  "a11y_fail": [
+   [
+    "aria-allowed-role",
+    "Uses ARIA roles on incompatible elements",
+    2
+   ],
+   [
+    "skip-link",
+    "Skip links are not focusable.",
+    1
+   ]
+  ],
+  "bp_fail": [
+   [
+    "third-party-cookies",
+    "Uses third-party cookies",
+    3
+   ],
+   [
+    "errors-in-console",
+    "Browser errors were logged to the console",
+    2
+   ],
+   [
+    "inspector-issues",
+    "Issues were logged in the `Issues` panel in Chrome Devtools",
+    1
+   ]
+  ],
+  "third_party": [
+   [
+    "Google Tag Manager",
+    323,
+    1749
+   ],
+   [
+    "Facebook",
+    210,
+    876
+   ],
+   [
+    "Amazon Web Services",
+    56,
+    73
+   ],
+   [
+    "Macropod BugHerd",
+    76,
+    55
+   ],
+   [
+    "provenexpert.com",
+    29,
+    0
+   ],
+   [
+    "Google/Doubleclick Ads",
+    4,
+    0
+   ],
+   [
+    "Other Google APIs/SDKs",
+    1,
+    0
+   ]
+  ],
+  "lcp_element": "<video class=\"elementor-background-video-hosted\" role=\"presentation\" autoplay=\"\" muted=\"\" playsinline=\"\" src=\"https://provision-infra.de/wp-content/uploads/2026",
+  "lcp_phases": {
+   "TTFB": 691,
+   "Load Delay": 0,
+   "Load Time": 0,
+   "Render Delay": 12567
+  },
+  "css_count": 3,
+  "js_count": 7,
+  "render_blocking": [
+   [
+    "post-3316.css?ver=1793310493",
+    329
+   ],
+   [
+    "v4-shims.min.css?ver=6.8.5",
+    329
+   ]
+  ],
+  "modern_images": [
+   [
+    "png;base64,iVBORw0KGgoAAAANSUhEUgAAAyUAAAPfCA",
+    631
+   ],
+   [
+    "Ellipse-3.png",
+    208
+   ],
+   [
+    "Ellipse-3.png",
+    116
+   ],
+   [
+    "Ellipse-4.png",
+    90
+   ],
+   [
+    "1.png",
+    30
+   ]
+  ]
+ }
+}
