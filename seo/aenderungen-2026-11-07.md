@@ -31,3 +31,12 @@ Umsetzung: `tools/startseite_h1/patch_h1.py` über `pagepatch.js` (Live-Stand la
 Zeilenumbrüche: Auf 1920 px passt die fette erste Zeile „Wir installieren in deinem Unternehmen“ ab 54 px nicht mehr in die 1092 px breite Textspalte (gemessene Textbreite 1066 px bei 52 px, 1128 px bei 55 px); ein Verbreitern der Spalte würde die Zeile in die Tür-Grafik laufen lassen. Die Headline bricht daher auf großen Bildschirmen wie auf Tablet und Smartphone nach „deinem“ um, drei ausgewogene Zeilen, Subline, Absatz, Button und Bewertungszeile rücken um 76 px nach unten und bleiben auf 1080p im ersten Bildschirm. Auf 768 px breiten Tablets (iPad hochkant) entsteht ebenfalls der dreizeilige Umbruch; ab 790 px Breite bleiben es zwei Zeilen. Alle anderen Breiten behalten ihre Zeilenstruktur.
 
 Funktion: Hero-Videos (Desktop und Handy) `readyState 4`, Einblend-Animationen und Lottie unverändert, kein horizontaler Überlauf, Hero-Container auf 1920 px 1042 px hoch mit nahtlosem Übergang zur Folgesektion. Screenshots vorher/nachher (1920 px, 1440 px, 390 px) liegen im Sitzungs-Scratchpad; die Messwerte in `seo/data/startseite_h1/`.
+
+## Umsetzung und Live-Prüfung (07.11.2026, 18:16–18:55 UTC)
+
+Startseite (#31) zuerst, danach Kamerasysteme (#4313), Lüneburg (#4496), Uelzen (#4605) und die 13 Stadtseiten (#4735–#4783); alle Speicherungen `publish`, keine Fehler. Live-Prüfung je Seite (Playwright, Cache-Umgehung), Protokoll in `seo/data/glaslogo/live_pruefung_2026-11-07.txt`:
+
+- 390 px (Smartphone): auf allen 17 Seiten zwei Logo-Ebenen, Positionen `center top` und `center 75 %` (Startseite) bzw. `center 72 %` (übrige), Deckkraft unverändert 0,64, Abschnittshöhen 2.049–2.796 px, kein horizontaler Überlauf.
+- 844 px (Smartphone quer / Tablet) und 1440 px (Desktop): unverändert eine Ebene mit den bisherigen Werten (Position links, Deckkraft 0,5; auf Lüneburg-/Kamera-Vorlage im Tablet-Bereich wie zuvor 0).
+- Zutrittssystem (#14d56a01): unverändert eine mittige Ebene, dient als Referenz.
+- Screenshots der Live-Seiten (Startseite, Kamerasysteme, Celle bei 390 px) im Sitzungs-Scratchpad gesichtet: zweites Logo hinter der vierten und fünften Box, gleiche Größe und Transparenz wie das erste.

@@ -1,0 +1,21 @@
+startseite       390: 2 Logo(s) pos=50% 0%, 50% 75% op=0.64 h=2425 | 844: 1 Logo(s) pos=0% 50% op=0.5 h=1541 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1523
+kamerasysteme/   390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2049 | 844: 1 Logo(s) pos=0% 50% op=0 h=1506 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1576
+lueneburg/       390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2629 | 844: 1 Logo(s) pos=0% 50% op=0 h=1738 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1808
+uelzen/          390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2728 | 844: 1 Logo(s) pos=0% 50% op=0 h=1788 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1877
+bad-bevensen/    390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2759 | 844: 1 Logo(s) pos=0% 50% op=0 h=1788 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1854
+bad-bodenteich/  390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2796 | 844: 1 Logo(s) pos=0% 50% op=0 h=1810 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1877
+bienenbuettel/   390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2775 | 844: 1 Logo(s) pos=0% 50% op=0 h=1810 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1854
+bleckede/        390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2796 | 844: 1 Logo(s) pos=0% 50% op=0 h=1810 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1877
+celle/           390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2764 | 844: 1 Logo(s) pos=0% 50% op=0 h=1766 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1877
+dannenberg/      390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2722 | 844: 1 Logo(s) pos=0% 50% op=0 h=1788 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1831
+ebstorf/         390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2711 | 844: 1 Logo(s) pos=0% 50% op=0 h=1766 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1854
+gifhorn/         390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2691 | 844: 1 Logo(s) pos=0% 50% op=0 h=1766 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1831
+hitzacker/       390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2715 | 844: 1 Logo(s) pos=0% 50% op=0 h=1788 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1831
+luechow/         390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2735 | 844: 1 Logo(s) pos=0% 50% op=0 h=1766 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1877
+wieren/          390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2728 | 844: 1 Logo(s) pos=0% 50% op=0 h=1788 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1854
+winsen-luhe/     390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2775 | 844: 1 Logo(s) pos=0% 50% op=0 h=1788 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1877
+wittingen/       390: 2 Logo(s) pos=50% 0%, 50% 72% op=0.64 h=2715 | 844: 1 Logo(s) pos=0% 50% op=0 h=1832 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1854
+zutrittssystem/  390: 1 Logo(s) pos=50% 50% op=0.64 h=1539 | 844: 1 Logo(s) pos=0% 50% op=0.5 h=850 | 1440: 1 Logo(s) pos=0% 50% op=0.5 h=1154
+VERIFY_DONE
+
+[exited with code 0]
