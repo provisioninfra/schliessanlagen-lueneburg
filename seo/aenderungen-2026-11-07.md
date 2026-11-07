@@ -25,8 +25,8 @@ Umsetzung: `tools/startseite_h1/patch_h1.py` über `pagepatch.js` (Live-Stand la
 | Tablet quer 1024×768 | 27 px | 2 → 2 | 70 → 74 px | 20 px | nein |
 | Tablet hochkant 820×1180 | 27 px | 2 → 2 | 70 → 74 px | 20 px | nein |
 | Tablet hochkant 768×1024 (echter iPad-Browser) | 27 px | 2 → 3 | 70 → 111 px | 20 px | nein |
-| Smartphone hochkant 430 / 390 / 360 px | 24 px | 3 → 3 | 75 → 81 px | 18 px | nein |
-| Smartphone quer 932×430 / 844×390 | 27 px | 2 → 2 | 70 → 74 px | 20 px | nein |
+| Smartphone hochkant 430 / 390 / 360 px (390 px zusätzlich mit echtem iPhone-Browser) | 24 px | 3 → 3 | 75 → 81 px | 18 px | nein |
+| Smartphone quer 932×430 / 844×390 (844 px zusätzlich mit echtem iPhone-Browser) | 27 px | 2 → 2 | 70 → 74 px | 20 px | nein |
 
 Zeilenumbrüche: Auf 1920 px passt die fette erste Zeile „Wir installieren in deinem Unternehmen“ ab 54 px nicht mehr in die 1092 px breite Textspalte (gemessene Textbreite 1066 px bei 52 px, 1128 px bei 55 px); ein Verbreitern der Spalte würde die Zeile in die Tür-Grafik laufen lassen. Die Headline bricht daher auf großen Bildschirmen wie auf Tablet und Smartphone nach „deinem“ um, drei ausgewogene Zeilen, Subline, Absatz, Button und Bewertungszeile rücken um 76 px nach unten und bleiben auf 1080p im ersten Bildschirm. Auf 768 px breiten Tablets (iPad hochkant) entsteht ebenfalls der dreizeilige Umbruch; ab 790 px Breite bleiben es zwei Zeilen. Alle anderen Breiten behalten ihre Zeilenstruktur.
 
